@@ -1,0 +1,520 @@
+{
+  "name": "ECMA-262, 1st edition",
+  "shortname": "ES1",
+  "date": "June 1997",
+  "baseUrl": "http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf",
+  "sections": [
+    {
+      "id": "15.1.1.1",
+      "name": "NaN"
+    },
+    {
+      "id": "15.1.1.2",
+      "name": "Infinity"
+    },
+    {
+      "id": "15.1.2.1",
+      "name": "eval"
+    },
+    {
+      "id": "15.1.2.2",
+      "name": "parseInt"
+    },
+    {
+      "id": "15.1.2.3",
+      "name": "parseFloat"
+    },
+    {
+      "id": "15.1.2.4",
+      "name": "escape"
+    },
+    {
+      "id": "15.1.2.5",
+      "name": "unescape"
+    },
+    {
+      "id": "15.1.2.6",
+      "name": "isNaN"
+    },
+    {
+      "id": "15.1.2.7",
+      "name": "isFinite"
+    },
+    {
+      "id": "15.2",
+      "name": "Object"
+    },
+    {
+      "id": "15.2.3.1",
+      "name": "Object.prototype"
+    },
+    {
+      "id": "15.2.4.1",
+      "name": "Object.prototype.constructor"
+    },
+    {
+      "id": "15.2.4.2",
+      "name": "Object.prototype.toString"
+    },
+    {
+      "id": "15.2.4.3",
+      "name": "Object.prototype.valueOf"
+    },
+    {
+      "id": "15.3",
+      "name": "Function"
+    },
+    {
+      "id": "15.3.3.1",
+      "name": "Function.prototype"
+    },
+    {
+      "id": "15.3.3.2",
+      "name": "Function.length"
+    },
+    {
+      "id": "15.3.4.1",
+      "name": "Function.prototype.constructor"
+    },
+    {
+      "id": "15.3.4.2",
+      "name": "Function.prototype.toString"
+    },
+    {
+      "id": "15.4",
+      "name": "Array"
+    },
+    {
+      "id": "15.4.3.1",
+      "name": "Array.prototype"
+    },
+    {
+      "id": "15.4.3.2",
+      "name": "Array.length"
+    },
+    {
+      "id": "15.4.4.1",
+      "name": "Array.prototype.constructor"
+    },
+    {
+      "id": "15.4.4.2",
+      "name": "Array.prototype.toString"
+    },
+    {
+      "id": "15.4.4.3",
+      "name": "Array.prototype.join"
+    },
+    {
+      "id": "15.4.4.4",
+      "name": "Array.prototype.reverse"
+    },
+    {
+      "id": "15.4.4.5",
+      "name": "Array.prototype.sort"
+    },
+    {
+      "id": "15.5",
+      "name": "String"
+    },
+    {
+      "id": "15.5.3.1",
+      "name": "String.prototype"
+    },
+    {
+      "id": "15.5.3.2",
+      "name": "String.fromCharCode"
+    },
+    {
+      "id": "15.5.4.1",
+      "name": "String.prototype.constructor"
+    },
+    {
+      "id": "15.5.4.2",
+      "name": "String.prototype.toString"
+    },
+    {
+      "id": "15.5.4.3",
+      "name": "String.prototype.valueOf"
+    },
+    {
+      "id": "15.5.4.4",
+      "name": "String.prototype.charAt"
+    },
+    {
+      "id": "15.5.4.5",
+      "name": "String.prototype.charCodeAt"
+    },
+    {
+      "id": "15.5.4.6",
+      "name": "String.prototype.indexOf"
+    },
+    {
+      "id": "15.5.4.7",
+      "name": "String.prototype.lastIndexOf"
+    },
+    {
+      "id": "15.5.4.8",
+      "name": "String.prototype.split"
+    },
+    {
+      "id": "15.5.4.9",
+      "name": "String.prototype.substring"
+    },
+    {
+      "id": "15.5.4.11",
+      "name": "String.prototype.toLowerCase"
+    },
+    {
+      "id": "15.5.4.12",
+      "name": "String.prototype.toUpperCase"
+    },
+    {
+      "id": "15.6",
+      "name": "Boolean"
+    },
+    {
+      "id": "15.6.3.1",
+      "name": "Boolean.prototype"
+    },
+    {
+      "id": "15.6.4.1",
+      "name": "Boolean.prototype.constructor"
+    },
+    {
+      "id": "15.6.4.2",
+      "name": "Boolean.prototype.toString"
+    },
+    {
+      "id": "15.6.4.3",
+      "name": "Boolean.prototype.valueOf"
+    },
+    {
+      "id": "15.7",
+      "name": "Number"
+    },
+    {
+      "id": "15.7.3.1",
+      "name": "Number.prototype"
+    },
+    {
+      "id": "15.7.3.2",
+      "name": "Number.MAX_VALUE"
+    },
+    {
+      "id": "15.7.3.3",
+      "name": "Number.MIN_VALUE"
+    },
+    {
+      "id": "15.7.3.4",
+      "name": "Number.NaN"
+    },
+    {
+      "id": "15.7.3.5",
+      "name": "Number.NEGATIVE_INFINITY"
+    },
+    {
+      "id": "15.7.3.6",
+      "name": "Number.POSITIVE_INFINITY"
+    },
+    {
+      "id": "15.7.4.1",
+      "name": "Number.prototype.constructor"
+    },
+    {
+      "id": "15.7.4.2",
+      "name": "Number.prototype.toString"
+    },
+    {
+      "id": "15.7.4.3",
+      "name": "Number.prototype.valueOf"
+    },
+    {
+      "id": "15.8",
+      "name": "Math"
+    },
+    {
+      "id": "15.8.1.1",
+      "name": "Math.E"
+    },
+    {
+      "id": "15.8.1.2",
+      "name": "Math.LN10"
+    },
+    {
+      "id": "15.8.1.3",
+      "name": "Math.LN2"
+    },
+    {
+      "id": "15.8.1.4",
+      "name": "Math.LOG2E"
+    },
+    {
+      "id": "15.8.1.5",
+      "name": "Math.LOG10E"
+    },
+    {
+      "id": "15.8.1.6",
+      "name": "Math.PI"
+    },
+    {
+      "id": "15.8.1.7",
+      "name": "Math.SQRT1_2"
+    },
+    {
+      "id": "15.8.1.8",
+      "name": "Math.SQRT2"
+    },
+    {
+      "id": "15.8.2.1",
+      "name": "Math.abs"
+    },
+    {
+      "id": "15.8.2.2",
+      "name": "Math.acos"
+    },
+    {
+      "id": "15.8.2.3",
+      "name": "Math.asin"
+    },
+    {
+      "id": "15.8.2.4",
+      "name": "Math.atan"
+    },
+    {
+      "id": "15.8.2.5",
+      "name": "Math.atan2"
+    },
+    {
+      "id": "15.8.2.6",
+      "name": "Math.ceil"
+    },
+    {
+      "id": "15.8.2.7",
+      "name": "Math.cos"
+    },
+    {
+      "id": "15.8.2.8",
+      "name": "Math.exp"
+    },
+    {
+      "id": "15.8.2.9",
+      "name": "Math.floor"
+    },
+    {
+      "id": "15.8.2.10",
+      "name": "Math.log"
+    },
+    {
+      "id": "15.8.2.11",
+      "name": "Math.max"
+    },
+    {
+      "id": "15.8.2.12",
+      "name": "Math.min"
+    },
+    {
+      "id": "15.8.2.13",
+      "name": "Math.pow"
+    },
+    {
+      "id": "15.8.2.14",
+      "name": "Math.random"
+    },
+    {
+      "id": "15.8.2.15",
+      "name": "Math.round"
+    },
+    {
+      "id": "15.8.2.16",
+      "name": "Math.sin"
+    },
+    {
+      "id": "15.8.2.17",
+      "name": "Math.sqrt"
+    },
+    {
+      "id": "15.8.2.18",
+      "name": "Math.tan"
+    },
+    {
+      "id": "15.9",
+      "name": "Date"
+    },
+    {
+      "id": "15.9.4.1",
+      "name": "Date.prototype"
+    },
+    {
+      "id": "15.9.4.2",
+      "name": "Date.parse"
+    },
+    {
+      "id": "15.9.4.3",
+      "name": "Date.UTC"
+    },
+    {
+      "id": "15.9.5.1",
+      "name": "Date.prototype.constructor"
+    },
+    {
+      "id": "15.9.5.2",
+      "name": "Date.prototype.toString"
+    },
+    {
+      "id": "15.9.5.3",
+      "name": "Date.prototype.valueOf"
+    },
+    {
+      "id": "15.9.5.4",
+      "name": "Date.prototype.getTime"
+    },
+    {
+      "id": "15.9.5.5",
+      "name": "Date.prototype.getYear"
+    },
+    {
+      "id": "15.9.5.6",
+      "name": "Date.prototype.getFullYear"
+    },
+    {
+      "id": "15.9.5.7",
+      "name": "Date.prototype.getUTCFullYear"
+    },
+    {
+      "id": "15.9.5.8",
+      "name": "Date.prototype.getMonth"
+    },
+    {
+      "id": "15.9.5.9",
+      "name": "Date.prototype.getUTCMonth"
+    },
+    {
+      "id": "15.9.5.10",
+      "name": "Date.prototype.getDate"
+    },
+    {
+      "id": "15.9.5.11",
+      "name": "Date.prototype.getUTCDate"
+    },
+    {
+      "id": "15.9.5.12",
+      "name": "Date.prototype.getDay"
+    },
+    {
+      "id": "15.9.5.13",
+      "name": "Date.prototype.getUTCDay"
+    },
+    {
+      "id": "15.9.5.14",
+      "name": "Date.prototype.getHours"
+    },
+    {
+      "id": "15.9.5.15",
+      "name": "Date.prototype.getUTCHours"
+    },
+    {
+      "id": "15.9.5.16",
+      "name": "Date.prototype.getMinutes"
+    },
+    {
+      "id": "15.9.5.17",
+      "name": "Date.prototype.getUTCMinutes"
+    },
+    {
+      "id": "15.9.5.18",
+      "name": "Date.prototype.getSeconds"
+    },
+    {
+      "id": "15.9.5.19",
+      "name": "Date.prototype.getUTCSeconds"
+    },
+    {
+      "id": "15.9.5.20",
+      "name": "Date.prototype.getMilliseconds"
+    },
+    {
+      "id": "15.9.5.21",
+      "name": "Date.prototype.getUTCMilliseconds"
+    },
+    {
+      "id": "15.9.5.22",
+      "name": "Date.prototype.getTimezoneOffset"
+    },
+    {
+      "id": "15.9.5.23",
+      "name": "Date.prototype.setTime"
+    },
+    {
+      "id": "15.9.5.24",
+      "name": "Date.prototype.setMilliseconds"
+    },
+    {
+      "id": "15.9.5.25",
+      "name": "Date.prototype.setUTCMilliseconds"
+    },
+    {
+      "id": "15.9.5.26",
+      "name": "Date.prototype.setSeconds"
+    },
+    {
+      "id": "15.9.5.27",
+      "name": "Date.prototype.setUTCSeconds"
+    },
+    {
+      "id": "15.9.5.28",
+      "name": "Date.prototype.setMinutes"
+    },
+    {
+      "id": "15.9.5.29",
+      "name": "Date.prototype.setUTCMinutes"
+    },
+    {
+      "id": "15.9.5.30",
+      "name": "Date.prototype.setHours"
+    },
+    {
+      "id": "15.9.5.31",
+      "name": "Date.prototype.setUTCHours"
+    },
+    {
+      "id": "15.9.5.32",
+      "name": "Date.prototype.setDate"
+    },
+    {
+      "id": "15.9.5.33",
+      "name": "Date.prototype.setUTCDate"
+    },
+    {
+      "id": "15.9.5.34",
+      "name": "Date.prototype.setMonth"
+    },
+    {
+      "id": "15.9.5.35",
+      "name": "Date.prototype.setUTCMonth"
+    },
+    {
+      "id": "15.9.5.36",
+      "name": "Date.prototype.setFullYear"
+    },
+    {
+      "id": "15.9.5.37",
+      "name": "Date.prototype.setUTCFullYear"
+    },
+    {
+      "id": "15.9.5.38",
+      "name": "Date.prototype.setYear"
+    },
+    {
+      "id": "15.9.5.39",
+      "name": "Date.prototype.toLocaleString"
+    },
+    {
+      "id": "15.9.5.40",
+      "name": "Date.prototype.toUTCString"
+    },
+    {
+      "id": "15.9.5.41",
+      "name": "Date.prototype.toGMTString"
+    }
+  ]
+}
