@@ -1,1068 +1,2323 @@
 {
-  "name": "ECMA-262, 5.1 edition",
-  "shortname": "ES5",
-  "date": "June 2011",
-  "baseUrl": "http://www.ecma-international.org/ecma-262/5.1/",
+  "name": "ECMAScript 2015",
+  "shortname": "ES2015",
+  "date": "June 2015",
+  "baseUrl": "http://www.ecma-international.org/ecma-262/6.0/",
   "sections": [
     {
-      "id": "15.1.1.1",
-      "url": "#sec-15.1.1.1",
-      "name": "NaN"
-    },
-    {
-      "id": "15.1.1.2",
-      "url": "#sec-15.1.1.2",
+      "id": "18.1.1",
+      "url": "#sec-value-properties-of-the-global-object-infinity",
       "name": "Infinity"
     },
     {
-      "id": "15.1.1.3",
-      "url": "#sec-15.1.1.3",
+      "id": "18.1.2",
+      "url": "#sec-value-properties-of-the-global-object-nan",
+      "name": "NaN"
+    },
+    {
+      "id": "18.1.3",
+      "url": "#sec-undefined",
       "name": "undefined"
     },
     {
-      "id": "15.1.2.1",
-      "url": "#sec-15.1.2.1",
+      "id": "18.2.1",
+      "url": "#sec-eval-x",
       "name": "eval"
     },
     {
-      "id": "15.1.2.2",
-      "url": "#sec-15.1.2.2",
-      "name": "parseInt"
-    },
-    {
-      "id": "15.1.2.3",
-      "url": "#sec-15.1.2.3",
-      "name": "parseFloat"
-    },
-    {
-      "id": "15.1.2.4",
-      "url": "#sec-15.1.2.4",
-      "name": "isNaN"
-    },
-    {
-      "id": "15.1.2.5",
-      "url": "#sec-15.1.2.5",
+      "id": "18.2.2",
+      "url": "#sec-isfinite-number",
       "name": "isFinite"
     },
     {
-      "id": "15.1.3.1",
-      "url": "#sec-15.1.3.1",
+      "id": "18.2.3",
+      "url": "#sec-isnan-number",
+      "name": "isNaN"
+    },
+    {
+      "id": "18.2.4",
+      "url": "#sec-parsefloat-string",
+      "name": "parseFloat"
+    },
+    {
+      "id": "18.2.5",
+      "url": "#sec-parseint-string-radix",
+      "name": "parseInt"
+    },
+    {
+      "id": "18.2.6.2",
+      "url": "#sec-decodeuri-encodeduri",
       "name": "decodeURI"
     },
     {
-      "id": "15.1.3.2",
-      "url": "#sec-15.1.3.2",
+      "id": "18.2.6.3",
+      "url": "#sec-decodeuricomponent-encodeduricomponent",
       "name": "decodeURIComponent"
     },
     {
-      "id": "15.1.3.3",
-      "url": "#sec-15.1.3.3",
+      "id": "18.2.6.4",
+      "url": "#sec-encodeuri-uri",
       "name": "encodeURI"
     },
     {
-      "id": "15.1.3.4",
-      "url": "#sec-15.1.3.4",
+      "id": "18.2.6.5",
+      "url": "#sec-encodeuricomponent-uricomponent",
       "name": "encodeURIComponent"
     },
     {
-      "id": "15.2",
-      "url": "#sec-15.2",
+      "id": "19.1",
+      "url": "#sec-object-objects",
       "name": "Object"
     },
     {
-      "id": "15.2.3.1",
-      "url": "#sec-15.2.3.1",
-      "name": "Object.prototype"
+      "id": "19.1.2.1",
+      "url": "#sec-object.assign",
+      "name": "Object.assign"
     },
     {
-      "id": "15.2.3.2",
-      "url": "#sec-15.2.3.2",
-      "name": "Object.getPrototypeOf"
-    },
-    {
-      "id": "15.2.3.3",
-      "url": "#sec-15.2.3.3",
-      "name": "Object.getOwnPropertyDescriptor"
-    },
-    {
-      "id": "15.2.3.4",
-      "url": "#sec-15.2.3.4",
-      "name": "Object.getOwnPropertyNames"
-    },
-    {
-      "id": "15.2.3.5",
-      "url": "#sec-15.2.3.5",
+      "id": "19.1.2.2",
+      "url": "#sec-object.create",
       "name": "Object.create"
     },
     {
-      "id": "15.2.3.6",
-      "url": "#sec-15.2.3.6",
-      "name": "Object.defineProperty"
-    },
-    {
-      "id": "15.2.3.7",
-      "url": "#sec-15.2.3.7",
+      "id": "19.1.2.3",
+      "url": "#sec-object.defineproperties",
       "name": "Object.defineProperties"
     },
     {
-      "id": "15.2.3.8",
-      "url": "#sec-15.2.3.8",
-      "name": "Object.seal"
+      "id": "19.1.2.4",
+      "url": "#sec-object.defineproperty",
+      "name": "Object.defineProperty"
     },
     {
-      "id": "15.2.3.9",
-      "url": "#sec-15.2.3.9",
+      "id": "19.1.2.5",
+      "url": "#sec-object.freeze",
       "name": "Object.freeze"
     },
     {
-      "id": "15.2.3.10",
-      "url": "#sec-15.2.3.10",
-      "name": "Object.preventExtensions"
+      "id": "19.1.2.6",
+      "url": "#sec-object.getownpropertydescriptor",
+      "name": "Object.getOwnPropertyDescriptor"
     },
     {
-      "id": "15.2.3.11",
-      "url": "#sec-15.2.3.11",
-      "name": "Object.isSealed"
+      "id": "19.1.2.7",
+      "url": "#sec-object.getownpropertynames",
+      "name": "Object.getOwnPropertyNames"
     },
     {
-      "id": "15.2.3.12",
-      "url": "#sec-15.2.3.12",
-      "name": "Object.isFrozen"
+      "id": "19.1.2.8",
+      "url": "#sec-object.getownpropertysymbols",
+      "name": "Object.getOwnPropertySymbols"
     },
     {
-      "id": "15.2.3.13",
-      "url": "#sec-15.2.3.13",
+      "id": "19.1.2.9",
+      "url": "#sec-object.getprototypeof",
+      "name": "Object.getPrototypeOf"
+    },
+    {
+      "id": "19.1.2.10",
+      "url": "#sec-object.is",
+      "name": "Object.is"
+    },
+    {
+      "id": "19.1.2.11",
+      "url": "#sec-object.isextensible",
       "name": "Object.isExtensible"
     },
     {
-      "id": "15.2.3.14",
-      "url": "#sec-15.2.3.14",
+      "id": "19.1.2.12",
+      "url": "#sec-object.isfrozen",
+      "name": "Object.isFrozen"
+    },
+    {
+      "id": "19.1.2.13",
+      "url": "#sec-object.issealed",
+      "name": "Object.isSealed"
+    },
+    {
+      "id": "19.1.2.14",
+      "url": "#sec-object.keys",
       "name": "Object.keys"
     },
     {
-      "id": "15.2.4.1",
-      "url": "#sec-15.2.4.1",
+      "id": "19.1.2.15",
+      "url": "#sec-object.preventextensions",
+      "name": "Object.preventExtensions"
+    },
+    {
+      "id": "19.1.2.16",
+      "url": "#sec-object.prototype",
+      "name": "Object.prototype"
+    },
+    {
+      "id": "19.1.2.17",
+      "url": "#sec-object.seal",
+      "name": "Object.seal"
+    },
+    {
+      "id": "19.1.2.18",
+      "url": "#sec-object.setprototypeof",
+      "name": "Object.setPrototypeOf"
+    },
+    {
+      "id": "19.1.3.1",
+      "url": "#sec-object.prototype.constructor",
       "name": "Object.prototype.constructor"
     },
     {
-      "id": "15.2.4.2",
-      "url": "#sec-15.2.4.2",
-      "name": "Object.prototype.toString"
-    },
-    {
-      "id": "15.2.4.3",
-      "url": "#sec-15.2.4.3",
-      "name": "Object.prototype.toLocaleString"
-    },
-    {
-      "id": "15.2.4.4",
-      "url": "#sec-15.2.4.4",
-      "name": "Object.prototype.valueOf"
-    },
-    {
-      "id": "15.2.4.5",
-      "url": "#sec-15.2.4.5",
+      "id": "19.1.3.2",
+      "url": "#sec-object.prototype.hasownproperty",
       "name": "Object.prototype.hasOwnProperty"
     },
     {
-      "id": "15.2.4.6",
-      "url": "#sec-15.2.4.6",
+      "id": "19.1.3.3",
+      "url": "#sec-object.prototype.isprototypeof",
       "name": "Object.prototype.isPrototypeOf"
     },
     {
-      "id": "15.2.4.7",
-      "url": "#sec-15.2.4.7",
+      "id": "19.1.3.4",
+      "url": "#sec-object.prototype.propertyisenumerable",
       "name": "Object.prototype.propertyIsEnumerable"
     },
     {
-      "id": "15.3",
-      "url": "#sec-15.3",
+      "id": "19.1.3.5",
+      "url": "#sec-object.prototype.tolocalestring",
+      "name": "Object.prototype.toLocaleString"
+    },
+    {
+      "id": "19.1.3.6",
+      "url": "#sec-object.prototype.tostring",
+      "name": "Object.prototype.toString"
+    },
+    {
+      "id": "19.1.3.7",
+      "url": "#sec-object.prototype.valueof",
+      "name": "Object.prototype.valueOf"
+    },
+    {
+      "id": "19.2",
+      "url": "#sec-function-objects",
       "name": "Function"
     },
     {
-      "id": "15.3.3.1",
-      "url": "#sec-15.3.3.1",
-      "name": "Function.prototype"
-    },
-    {
-      "id": "15.3.3.2",
-      "url": "#sec-15.3.3.2",
+      "id": "19.2.2.1",
+      "url": "#sec-function.length",
       "name": "Function.length"
     },
     {
-      "id": "15.3.4.1",
-      "url": "#sec-15.3.4.1",
-      "name": "Function.prototype.constructor"
+      "id": "19.2.2.2",
+      "url": "#sec-function.prototype",
+      "name": "Function.prototype"
     },
     {
-      "id": "15.3.4.2",
-      "url": "#sec-15.3.4.2",
-      "name": "Function.prototype.toString"
-    },
-    {
-      "id": "15.3.4.3",
-      "url": "#sec-15.3.4.3",
+      "id": "19.2.3.1",
+      "url": "#sec-function.prototype.apply",
       "name": "Function.prototype.apply"
     },
     {
-      "id": "15.3.4.4",
-      "url": "#sec-15.3.4.4",
-      "name": "Function.prototype.call"
-    },
-    {
-      "id": "15.3.4.5",
-      "url": "#sec-15.3.4.5",
+      "id": "19.2.3.2",
+      "url": "#sec-function.prototype.bind",
       "name": "Function.prototype.bind"
     },
     {
-      "id": "15.4",
-      "url": "#sec-15.4",
-      "name": "Array"
+      "id": "19.2.3.3",
+      "url": "#sec-function.prototype.call",
+      "name": "Function.prototype.call"
     },
     {
-      "id": "15.4.3.1",
-      "url": "#sec-15.4.3.1",
-      "name": "Array.prototype"
+      "id": "19.2.3.4",
+      "url": "#sec-function.prototype.constructor",
+      "name": "Function.prototype.constructor"
     },
     {
-      "id": "15.4.3.2",
-      "url": "#sec-15.4.3.2",
-      "name": "Array.isArray"
+      "id": "19.2.3.5",
+      "url": "#sec-function.prototype.tostring",
+      "name": "Function.prototype.toString"
     },
     {
-      "id": "15.4.4.1",
-      "url": "#sec-15.4.4.1",
-      "name": "Array.prototype.constructor"
+      "id": "19.2.3.6",
+      "url": "#sec-function.prototype-@@hasinstance",
+      "name": "Function.prototype[@@hasInstance]"
     },
     {
-      "id": "15.4.4.2",
-      "url": "#sec-15.4.4.2",
-      "name": "Array.prototype.toString"
-    },
-    {
-      "id": "15.4.4.3",
-      "url": "#sec-15.4.4.3",
-      "name": "Array.prototype.toLocaleString"
-    },
-    {
-      "id": "15.4.4.4",
-      "url": "#sec-15.4.4.4",
-      "name": "Array.prototype.concat"
-    },
-    {
-      "id": "15.4.4.5",
-      "url": "#sec-15.4.4.5",
-      "name": "Array.prototype.join"
-    },
-    {
-      "id": "15.4.4.6",
-      "url": "#sec-15.4.4.6",
-      "name": "Array.prototype.pop"
-    },
-    {
-      "id": "15.4.4.7",
-      "url": "#sec-15.4.4.7",
-      "name": "Array.prototype.push"
-    },
-    {
-      "id": "15.4.4.8",
-      "url": "#sec-15.4.4.8",
-      "name": "Array.prototype.reverse"
-    },
-    {
-      "id": "15.4.4.9",
-      "url": "#sec-15.4.4.9",
-      "name": "Array.prototype.shift"
-    },
-    {
-      "id": "15.4.4.10",
-      "url": "#sec-15.4.4.10",
-      "name": "Array.prototype.slice"
-    },
-    {
-      "id": "15.4.4.11",
-      "url": "#sec-15.4.4.11",
-      "name": "Array.prototype.sort"
-    },
-    {
-      "id": "15.4.4.12",
-      "url": "#sec-15.4.4.12",
-      "name": "Array.prototype.splice"
-    },
-    {
-      "id": "15.4.4.13",
-      "url": "#sec-15.4.4.13",
-      "name": "Array.prototype.unshift"
-    },
-    {
-      "id": "15.4.4.14",
-      "url": "#sec-15.4.4.14",
-      "name": "Array.prototype.indexOf"
-    },
-    {
-      "id": "15.4.4.15",
-      "url": "#sec-15.4.4.15",
-      "name": "Array.prototype.lastIndexOf"
-    },
-    {
-      "id": "15.4.4.16",
-      "url": "#sec-15.4.4.16",
-      "name": "Array.prototype.every"
-    },
-    {
-      "id": "15.4.4.17",
-      "url": "#sec-15.4.4.17",
-      "name": "Array.prototype.some"
-    },
-    {
-      "id": "15.4.4.18",
-      "url": "#sec-15.4.4.18",
-      "name": "Array.prototype.forEach"
-    },
-    {
-      "id": "15.4.4.19",
-      "url": "#sec-15.4.4.19",
-      "name": "Array.prototype.map"
-    },
-    {
-      "id": "15.4.4.20",
-      "url": "#sec-15.4.4.20",
-      "name": "Array.prototype.filter"
-    },
-    {
-      "id": "15.4.4.21",
-      "url": "#sec-15.4.4.21",
-      "name": "Array.prototype.reduce"
-    },
-    {
-      "id": "15.4.4.22",
-      "url": "#sec-15.4.4.22",
-      "name": "Array.prototype.reduceRight"
-    },
-    {
-      "id": "15.5",
-      "url": "#sec-15.5",
-      "name": "String"
-    },
-    {
-      "id": "15.5.3.1",
-      "url": "#sec-15.5.3.1",
-      "name": "String.prototype"
-    },
-    {
-      "id": "15.5.3.2",
-      "url": "#sec-15.5.3.2",
-      "name": "String.fromCharCode"
-    },
-    {
-      "id": "15.5.4.1",
-      "url": "#sec-15.5.4.1",
-      "name": "String.prototype.constructor"
-    },
-    {
-      "id": "15.5.4.2",
-      "url": "#sec-15.5.4.2",
-      "name": "String.prototype.toString"
-    },
-    {
-      "id": "15.5.4.3",
-      "url": "#sec-15.5.4.3",
-      "name": "String.prototype.valueOf"
-    },
-    {
-      "id": "15.5.4.4",
-      "url": "#sec-15.5.4.4",
-      "name": "String.prototype.charAt"
-    },
-    {
-      "id": "15.5.4.5",
-      "url": "#sec-15.5.4.5",
-      "name": "String.prototype.charCodeAt"
-    },
-    {
-      "id": "15.5.4.6",
-      "url": "#sec-15.5.4.6",
-      "name": "String.prototype.concat"
-    },
-    {
-      "id": "15.5.4.7",
-      "url": "#sec-15.5.4.7",
-      "name": "String.prototype.indexOf"
-    },
-    {
-      "id": "15.5.4.8",
-      "url": "#sec-15.5.4.8",
-      "name": "String.prototype.lastIndexOf"
-    },
-    {
-      "id": "15.5.4.9",
-      "url": "#sec-15.5.4.9",
-      "name": "String.prototype.localeCompare"
-    },
-    {
-      "id": "15.5.4.10",
-      "url": "#sec-15.5.4.10",
-      "name": "String.prototype.match"
-    },
-    {
-      "id": "15.5.4.11",
-      "url": "#sec-15.5.4.11",
-      "name": "String.prototype.replace"
-    },
-    {
-      "id": "15.5.4.12",
-      "url": "#sec-15.5.4.12",
-      "name": "String.prototype.search"
-    },
-    {
-      "id": "15.5.4.13",
-      "url": "#sec-15.5.4.13",
-      "name": "String.prototype.slice"
-    },
-    {
-      "id": "15.5.4.14",
-      "url": "#sec-15.5.4.14",
-      "name": "String.prototype.split"
-    },
-    {
-      "id": "15.5.4.15",
-      "url": "#sec-15.5.4.15",
-      "name": "String.prototype.substring"
-    },
-    {
-      "id": "15.5.4.16",
-      "url": "#sec-15.5.4.16",
-      "name": "String.prototype.toLowerCase"
-    },
-    {
-      "id": "15.5.4.17",
-      "url": "#sec-15.5.4.17",
-      "name": "String.prototype.toLocaleLowerCase"
-    },
-    {
-      "id": "15.5.4.18",
-      "url": "#sec-15.5.4.18",
-      "name": "String.prototype.toUpperCase"
-    },
-    {
-      "id": "15.5.4.19",
-      "url": "#sec-15.5.4.19",
-      "name": "String.prototype.toLocaleUpperCase"
-    },
-    {
-      "id": "15.5.4.20",
-      "url": "#sec-15.5.4.20",
-      "name": "String.prototype.trim"
-    },
-    {
-      "id": "15.6",
-      "url": "#sec-15.6",
+      "id": "19.3",
+      "url": "#sec-boolean-objects",
       "name": "Boolean"
     },
     {
-      "id": "15.6.3.1",
-      "url": "#sec-15.6.3.1",
+      "id": "19.3.2.1",
+      "url": "#sec-boolean.prototype",
       "name": "Boolean.prototype"
     },
     {
-      "id": "15.6.4.1",
-      "url": "#sec-15.6.4.1",
+      "id": "19.3.3.1",
+      "url": "#sec-boolean.prototype.constructor",
       "name": "Boolean.prototype.constructor"
     },
     {
-      "id": "15.6.4.2",
-      "url": "#sec-15.6.4.2",
+      "id": "19.3.3.2",
+      "url": "#sec-boolean.prototype.tostring",
       "name": "Boolean.prototype.toString"
     },
     {
-      "id": "15.6.4.3",
-      "url": "#sec-15.6.4.3",
+      "id": "19.3.3.3",
+      "url": "#sec-boolean.prototype.valueof",
       "name": "Boolean.prototype.valueOf"
     },
     {
-      "id": "15.7",
-      "url": "#sec-15.7",
-      "name": "Number"
+      "id": "19.4",
+      "url": "#sec-symbol-objects",
+      "name": "Symbol"
     },
     {
-      "id": "15.7.3.1",
-      "url": "#sec-15.7.3.1",
-      "name": "Number.prototype"
+      "id": "19.4.2.1",
+      "url": "#sec-symbol.for",
+      "name": "Symbol.for"
     },
     {
-      "id": "15.7.3.2",
-      "url": "#sec-15.7.3.2",
-      "name": "Number.MAX_VALUE"
+      "id": "19.4.2.2",
+      "url": "#sec-symbol.hasinstance",
+      "name": "Symbol.hasInstance"
     },
     {
-      "id": "15.7.3.3",
-      "url": "#sec-15.7.3.3",
-      "name": "Number.MIN_VALUE"
+      "id": "19.4.2.3",
+      "url": "#sec-symbol.isconcatspreadable",
+      "name": "Symbol.isConcatSpreadable"
     },
     {
-      "id": "15.7.3.4",
-      "url": "#sec-15.7.3.4",
-      "name": "Number.NaN"
+      "id": "19.4.2.4",
+      "url": "#sec-symbol.iterator",
+      "name": "Symbol.iterator"
     },
     {
-      "id": "15.7.3.5",
-      "url": "#sec-15.7.3.5",
-      "name": "Number.NEGATIVE_INFINITY"
+      "id": "19.4.2.5",
+      "url": "#sec-symbol.keyfor",
+      "name": "Symbol.keyFor"
     },
     {
-      "id": "15.7.3.6",
-      "url": "#sec-15.7.3.6",
-      "name": "Number.POSITIVE_INFINITY"
+      "id": "19.4.2.6",
+      "url": "#sec-symbol.match",
+      "name": "Symbol.match"
     },
     {
-      "id": "15.7.4.1",
-      "url": "#sec-15.7.4.1",
-      "name": "Number.prototype.constructor"
+      "id": "19.4.2.7",
+      "url": "#sec-symbol.prototype",
+      "name": "Symbol.prototype"
     },
     {
-      "id": "15.7.4.2",
-      "url": "#sec-15.7.4.2",
-      "name": "Number.prototype.toString"
+      "id": "19.4.2.8",
+      "url": "#sec-symbol.replace",
+      "name": "Symbol.replace"
     },
     {
-      "id": "15.7.4.3",
-      "url": "#sec-15.7.4.3",
-      "name": "Number.prototype.toLocaleString"
+      "id": "19.4.2.9",
+      "url": "#sec-symbol.search",
+      "name": "Symbol.search"
     },
     {
-      "id": "15.7.4.4",
-      "url": "#sec-15.7.4.4",
-      "name": "Number.prototype.valueOf"
+      "id": "19.4.2.10",
+      "url": "#sec-symbol.species",
+      "name": "Symbol.species"
     },
     {
-      "id": "15.7.4.5",
-      "url": "#sec-15.7.4.5",
-      "name": "Number.prototype.toFixed"
+      "id": "19.4.2.11",
+      "url": "#sec-symbol.split",
+      "name": "Symbol.split"
     },
     {
-      "id": "15.7.4.6",
-      "url": "#sec-15.7.4.6",
-      "name": "Number.prototype.toExponential"
+      "id": "19.4.2.12",
+      "url": "#sec-symbol.toprimitive",
+      "name": "Symbol.toPrimitive"
     },
     {
-      "id": "15.7.4.7",
-      "url": "#sec-15.7.4.7",
-      "name": "Number.prototype.toPrecision"
+      "id": "19.4.2.13",
+      "url": "#sec-symbol.tostringtag",
+      "name": "Symbol.toStringTag"
     },
     {
-      "id": "15.8",
-      "url": "#sec-15.8",
-      "name": "Math"
+      "id": "19.4.2.14",
+      "url": "#sec-symbol.unscopables",
+      "name": "Symbol.unscopables"
     },
     {
-      "id": "15.8.1.1",
-      "url": "#sec-15.8.1.1",
-      "name": "Math.E"
+      "id": "19.4.3.1",
+      "url": "#sec-symbol.prototype.constructor",
+      "name": "Symbol.prototype.constructor"
     },
     {
-      "id": "15.8.1.2",
-      "url": "#sec-15.8.1.2",
-      "name": "Math.LN10"
+      "id": "19.4.3.2",
+      "url": "#sec-symbol.prototype.tostring",
+      "name": "Symbol.prototype.toString"
     },
     {
-      "id": "15.8.1.3",
-      "url": "#sec-15.8.1.3",
-      "name": "Math.LN2"
+      "id": "19.4.3.3",
+      "url": "#sec-symbol.prototype.valueof",
+      "name": "Symbol.prototype.valueOf"
     },
     {
-      "id": "15.8.1.4",
-      "url": "#sec-15.8.1.4",
-      "name": "Math.LOG2E"
+      "id": "19.4.3.4",
+      "url": "#sec-symbol.prototype-@@toprimitive",
+      "name": "Symbol.prototype[@@toPrimitive]"
     },
     {
-      "id": "15.8.1.5",
-      "url": "#sec-15.8.1.5",
-      "name": "Math.LOG10E"
+      "id": "19.4.3.5",
+      "url": "#sec-symbol.prototype-@@tostringtag",
+      "name": "Symbol.prototype[@@toStringTag]"
     },
     {
-      "id": "15.8.1.6",
-      "url": "#sec-15.8.1.6",
-      "name": "Math.PI"
-    },
-    {
-      "id": "15.8.1.7",
-      "url": "#sec-15.8.1.7",
-      "name": "Math.SQRT1_2"
-    },
-    {
-      "id": "15.8.1.8",
-      "url": "#sec-15.8.1.8",
-      "name": "Math.SQRT2"
-    },
-    {
-      "id": "15.8.2.1",
-      "url": "#sec-15.8.2.1",
-      "name": "Math.abs"
-    },
-    {
-      "id": "15.8.2.2",
-      "url": "#sec-15.8.2.2",
-      "name": "Math.acos"
-    },
-    {
-      "id": "15.8.2.3",
-      "url": "#sec-15.8.2.3",
-      "name": "Math.asin"
-    },
-    {
-      "id": "15.8.2.4",
-      "url": "#sec-15.8.2.4",
-      "name": "Math.atan"
-    },
-    {
-      "id": "15.8.2.5",
-      "url": "#sec-15.8.2.5",
-      "name": "Math.atan2"
-    },
-    {
-      "id": "15.8.2.6",
-      "url": "#sec-15.8.2.6",
-      "name": "Math.ceil"
-    },
-    {
-      "id": "15.8.2.7",
-      "url": "#sec-15.8.2.7",
-      "name": "Math.cos"
-    },
-    {
-      "id": "15.8.2.8",
-      "url": "#sec-15.8.2.8",
-      "name": "Math.exp"
-    },
-    {
-      "id": "15.8.2.9",
-      "url": "#sec-15.8.2.9",
-      "name": "Math.floor"
-    },
-    {
-      "id": "15.8.2.10",
-      "url": "#sec-15.8.2.10",
-      "name": "Math.log"
-    },
-    {
-      "id": "15.8.2.11",
-      "url": "#sec-15.8.2.11",
-      "name": "Math.max"
-    },
-    {
-      "id": "15.8.2.12",
-      "url": "#sec-15.8.2.12",
-      "name": "Math.min"
-    },
-    {
-      "id": "15.8.2.13",
-      "url": "#sec-15.8.2.13",
-      "name": "Math.pow"
-    },
-    {
-      "id": "15.8.2.14",
-      "url": "#sec-15.8.2.14",
-      "name": "Math.random"
-    },
-    {
-      "id": "15.8.2.15",
-      "url": "#sec-15.8.2.15",
-      "name": "Math.round"
-    },
-    {
-      "id": "15.8.2.16",
-      "url": "#sec-15.8.2.16",
-      "name": "Math.sin"
-    },
-    {
-      "id": "15.8.2.17",
-      "url": "#sec-15.8.2.17",
-      "name": "Math.sqrt"
-    },
-    {
-      "id": "15.8.2.18",
-      "url": "#sec-15.8.2.18",
-      "name": "Math.tan"
-    },
-    {
-      "id": "15.9",
-      "url": "#sec-15.9",
-      "name": "Date"
-    },
-    {
-      "id": "15.9.4.1",
-      "url": "#sec-15.9.4.1",
-      "name": "Date.prototype"
-    },
-    {
-      "id": "15.9.4.2",
-      "url": "#sec-15.9.4.2",
-      "name": "Date.parse"
-    },
-    {
-      "id": "15.9.4.3",
-      "url": "#sec-15.9.4.3",
-      "name": "Date.UTC"
-    },
-    {
-      "id": "15.9.4.4",
-      "url": "#sec-15.9.4.4",
-      "name": "Date.now"
-    },
-    {
-      "id": "15.9.5.1",
-      "url": "#sec-15.9.5.1",
-      "name": "Date.prototype.constructor"
-    },
-    {
-      "id": "15.9.5.2",
-      "url": "#sec-15.9.5.2",
-      "name": "Date.prototype.toString"
-    },
-    {
-      "id": "15.9.5.3",
-      "url": "#sec-15.9.5.3",
-      "name": "Date.prototype.toDateString"
-    },
-    {
-      "id": "15.9.5.4",
-      "url": "#sec-15.9.5.4",
-      "name": "Date.prototype.toTimeString"
-    },
-    {
-      "id": "15.9.5.5",
-      "url": "#sec-15.9.5.5",
-      "name": "Date.prototype.toLocaleString"
-    },
-    {
-      "id": "15.9.5.6",
-      "url": "#sec-15.9.5.6",
-      "name": "Date.prototype.toLocaleDateString"
-    },
-    {
-      "id": "15.9.5.7",
-      "url": "#sec-15.9.5.7",
-      "name": "Date.prototype.toLocaleTimeString"
-    },
-    {
-      "id": "15.9.5.8",
-      "url": "#sec-15.9.5.8",
-      "name": "Date.prototype.valueOf"
-    },
-    {
-      "id": "15.9.5.9",
-      "url": "#sec-15.9.5.9",
-      "name": "Date.prototype.getTime"
-    },
-    {
-      "id": "15.9.5.10",
-      "url": "#sec-15.9.5.10",
-      "name": "Date.prototype.getFullYear"
-    },
-    {
-      "id": "15.9.5.11",
-      "url": "#sec-15.9.5.11",
-      "name": "Date.prototype.getUTCFullYear"
-    },
-    {
-      "id": "15.9.5.12",
-      "url": "#sec-15.9.5.12",
-      "name": "Date.prototype.getMonth"
-    },
-    {
-      "id": "15.9.5.13",
-      "url": "#sec-15.9.5.13",
-      "name": "Date.prototype.getUTCMonth"
-    },
-    {
-      "id": "15.9.5.14",
-      "url": "#sec-15.9.5.14",
-      "name": "Date.prototype.getDate"
-    },
-    {
-      "id": "15.9.5.15",
-      "url": "#sec-15.9.5.15",
-      "name": "Date.prototype.getUTCDate"
-    },
-    {
-      "id": "15.9.5.16",
-      "url": "#sec-15.9.5.16",
-      "name": "Date.prototype.getDay"
-    },
-    {
-      "id": "15.9.5.17",
-      "url": "#sec-15.9.5.17",
-      "name": "Date.prototype.getUTCDay"
-    },
-    {
-      "id": "15.9.5.18",
-      "url": "#sec-15.9.5.18",
-      "name": "Date.prototype.getHours"
-    },
-    {
-      "id": "15.9.5.19",
-      "url": "#sec-15.9.5.19",
-      "name": "Date.prototype.getUTCHours"
-    },
-    {
-      "id": "15.9.5.20",
-      "url": "#sec-15.9.5.20",
-      "name": "Date.prototype.getMinutes"
-    },
-    {
-      "id": "15.9.5.21",
-      "url": "#sec-15.9.5.21",
-      "name": "Date.prototype.getUTCMinutes"
-    },
-    {
-      "id": "15.9.5.22",
-      "url": "#sec-15.9.5.22",
-      "name": "Date.prototype.getSeconds"
-    },
-    {
-      "id": "15.9.5.23",
-      "url": "#sec-15.9.5.23",
-      "name": "Date.prototype.getUTCSeconds"
-    },
-    {
-      "id": "15.9.5.24",
-      "url": "#sec-15.9.5.24",
-      "name": "Date.prototype.getMilliseconds"
-    },
-    {
-      "id": "15.9.5.25",
-      "url": "#sec-15.9.5.25",
-      "name": "Date.prototype.getUTCMilliseconds"
-    },
-    {
-      "id": "15.9.5.26",
-      "url": "#sec-15.9.5.26",
-      "name": "Date.prototype.getTimezoneOffset"
-    },
-    {
-      "id": "15.9.5.27",
-      "url": "#sec-15.9.5.27",
-      "name": "Date.prototype.setTime"
-    },
-    {
-      "id": "15.9.5.28",
-      "url": "#sec-15.9.5.28",
-      "name": "Date.prototype.setMilliseconds"
-    },
-    {
-      "id": "15.9.5.29",
-      "url": "#sec-15.9.5.29",
-      "name": "Date.prototype.setUTCMilliseconds"
-    },
-    {
-      "id": "15.9.5.30",
-      "url": "#sec-15.9.5.30",
-      "name": "Date.prototype.setSeconds"
-    },
-    {
-      "id": "15.9.5.31",
-      "url": "#sec-15.9.5.31",
-      "name": "Date.prototype.setUTCSeconds"
-    },
-    {
-      "id": "15.9.5.32",
-      "url": "#sec-15.9.5.32",
-      "name": "Date.prototype.setMinutes"
-    },
-    {
-      "id": "15.9.5.33",
-      "url": "#sec-15.9.5.33",
-      "name": "Date.prototype.setUTCMinutes"
-    },
-    {
-      "id": "15.9.5.34",
-      "url": "#sec-15.9.5.34",
-      "name": "Date.prototype.setHours"
-    },
-    {
-      "id": "15.9.5.35",
-      "url": "#sec-15.9.5.35",
-      "name": "Date.prototype.setUTCHours"
-    },
-    {
-      "id": "15.9.5.36",
-      "url": "#sec-15.9.5.36",
-      "name": "Date.prototype.setDate"
-    },
-    {
-      "id": "15.9.5.37",
-      "url": "#sec-15.9.5.37",
-      "name": "Date.prototype.setUTCDate"
-    },
-    {
-      "id": "15.9.5.38",
-      "url": "#sec-15.9.5.38",
-      "name": "Date.prototype.setMonth"
-    },
-    {
-      "id": "15.9.5.39",
-      "url": "#sec-15.9.5.39",
-      "name": "Date.prototype.setUTCMonth"
-    },
-    {
-      "id": "15.9.5.40",
-      "url": "#sec-15.9.5.40",
-      "name": "Date.prototype.setFullYear"
-    },
-    {
-      "id": "15.9.5.41",
-      "url": "#sec-15.9.5.41",
-      "name": "Date.prototype.setUTCFullYear"
-    },
-    {
-      "id": "15.9.5.42",
-      "url": "#sec-15.9.5.42",
-      "name": "Date.prototype.toUTCString"
-    },
-    {
-      "id": "15.9.5.43",
-      "url": "#sec-15.9.5.43",
-      "name": "Date.prototype.toISOString"
-    },
-    {
-      "id": "15.9.5.44",
-      "url": "#sec-15.9.5.44",
-      "name": "Date.prototype.toJSON"
-    },
-    {
-      "id": "15.10",
-      "url": "#sec-15.10",
-      "name": "RegExp"
-    },
-    {
-      "id": "15.10.5.1",
-      "url": "#sec-15.10.5.1",
-      "name": "RegExp.prototype"
-    },
-    {
-      "id": "15.10.6.1",
-      "url": "#sec-15.10.6.1",
-      "name": "RegExp.prototype.constructor"
-    },
-    {
-      "id": "15.10.6.2",
-      "url": "#sec-15.10.6.2",
-      "name": "RegExp.prototype.exec"
-    },
-    {
-      "id": "15.10.6.3",
-      "url": "#sec-15.10.6.3",
-      "name": "RegExp.prototype.test"
-    },
-    {
-      "id": "15.10.6.4",
-      "url": "#sec-15.10.6.4",
-      "name": "RegExp.prototype.toString"
-    },
-    {
-      "id": "15.11",
-      "url": "#sec-15.11",
+      "id": "19.5",
+      "url": "#sec-error-objects",
       "name": "Error"
     },
     {
-      "id": "15.11.3.1",
-      "url": "#sec-15.11.3.1",
+      "id": "19.5.2.1",
+      "url": "#sec-error.prototype",
       "name": "Error.prototype"
     },
     {
-      "id": "15.11.4.1",
-      "url": "#sec-15.11.4.1",
+      "id": "19.5.3.1",
+      "url": "#sec-error.prototype.constructor",
       "name": "Error.prototype.constructor"
     },
     {
-      "id": "15.11.4.2",
-      "url": "#sec-15.11.4.2",
-      "name": "Error.prototype.name"
-    },
-    {
-      "id": "15.11.4.3",
-      "url": "#sec-15.11.4.3",
+      "id": "19.5.3.2",
+      "url": "#sec-error.prototype.message",
       "name": "Error.prototype.message"
     },
     {
-      "id": "15.11.4.4",
-      "url": "#sec-15.11.4.4",
+      "id": "19.5.3.3",
+      "url": "#sec-error.prototype.name",
+      "name": "Error.prototype.name"
+    },
+    {
+      "id": "19.5.3.4",
+      "url": "#sec-error.prototype.tostring",
       "name": "Error.prototype.toString"
     },
     {
-      "id": "15.11.6.1",
-      "url": "#sec-15.11.6.1",
+      "id": "19.5.5.1",
+      "url": "#sec-native-error-types-used-in-this-standard-evalerror",
       "name": "EvalError"
     },
     {
-      "id": "15.11.6.2",
-      "url": "#sec-15.11.6.2",
+      "id": "19.5.5.2",
+      "url": "#sec-native-error-types-used-in-this-standard-rangeerror",
       "name": "RangeError"
     },
     {
-      "id": "15.11.6.3",
-      "url": "#sec-15.11.6.3",
+      "id": "19.5.5.3",
+      "url": "#sec-native-error-types-used-in-this-standard-referenceerror",
       "name": "ReferenceError"
     },
     {
-      "id": "15.11.6.4",
-      "url": "#sec-15.11.6.4",
+      "id": "19.5.5.4",
+      "url": "#sec-native-error-types-used-in-this-standard-syntaxerror",
       "name": "SyntaxError"
     },
     {
-      "id": "15.11.6.5",
-      "url": "#sec-15.11.6.5",
+      "id": "19.5.5.5",
+      "url": "#sec-native-error-types-used-in-this-standard-typeerror",
       "name": "TypeError"
     },
     {
-      "id": "15.11.6.6",
-      "url": "#sec-15.11.6.6",
+      "id": "19.5.5.6",
+      "url": "#sec-native-error-types-used-in-this-standard-urierror",
       "name": "URIError"
     },
     {
-      "id": "15.12",
-      "url": "#sec-15.12",
+      "id": "20.1",
+      "url": "#sec-number-objects",
+      "name": "Number"
+    },
+    {
+      "id": "20.1.2.1",
+      "url": "#sec-number.epsilon",
+      "name": "Number.EPSILON"
+    },
+    {
+      "id": "20.1.2.2",
+      "url": "#sec-number.isfinite",
+      "name": "Number.isFinite"
+    },
+    {
+      "id": "20.1.2.3",
+      "url": "#sec-number.isinteger",
+      "name": "Number.isInteger"
+    },
+    {
+      "id": "20.1.2.4",
+      "url": "#sec-number.isnan",
+      "name": "Number.isNaN"
+    },
+    {
+      "id": "20.1.2.5",
+      "url": "#sec-number.issafeinteger",
+      "name": "Number.isSafeInteger"
+    },
+    {
+      "id": "20.1.2.6",
+      "url": "#sec-number.max_safe_integer",
+      "name": "Number.MAX_SAFE_INTEGER"
+    },
+    {
+      "id": "20.1.2.7",
+      "url": "#sec-number.max_value",
+      "name": "Number.MAX_VALUE"
+    },
+    {
+      "id": "20.1.2.8",
+      "url": "#sec-number.min_safe_integer",
+      "name": "Number.MIN_SAFE_INTEGER"
+    },
+    {
+      "id": "20.1.2.9",
+      "url": "#sec-number.min_value",
+      "name": "Number.MIN_VALUE"
+    },
+    {
+      "id": "20.1.2.10",
+      "url": "#sec-number.nan",
+      "name": "Number.NaN"
+    },
+    {
+      "id": "20.1.2.11",
+      "url": "#sec-number.negative_infinity",
+      "name": "Number.NEGATIVE_INFINITY"
+    },
+    {
+      "id": "20.1.2.12",
+      "url": "#sec-number.parsefloat",
+      "name": "Number.parseFloat"
+    },
+    {
+      "id": "20.1.2.13",
+      "url": "#sec-number.parseint",
+      "name": "Number.parseInt"
+    },
+    {
+      "id": "20.1.2.14",
+      "url": "#sec-number.positive_infinity",
+      "name": "Number.POSITIVE_INFINITY"
+    },
+    {
+      "id": "20.1.2.15",
+      "url": "#sec-number.prototype",
+      "name": "Number.prototype"
+    },
+    {
+      "id": "20.1.3.1",
+      "url": "#sec-number.prototype.constructor",
+      "name": "Number.prototype.constructor"
+    },
+    {
+      "id": "20.1.3.2",
+      "url": "#sec-number.prototype.toexponential",
+      "name": "Number.prototype.toExponential"
+    },
+    {
+      "id": "20.1.3.3",
+      "url": "#sec-number.prototype.tofixed",
+      "name": "Number.prototype.toFixed"
+    },
+    {
+      "id": "20.1.3.4",
+      "url": "#sec-number.prototype.tolocalestring",
+      "name": "Number.prototype.toLocaleString"
+    },
+    {
+      "id": "20.1.3.5",
+      "url": "#sec-number.prototype.toprecision",
+      "name": "Number.prototype.toPrecision"
+    },
+    {
+      "id": "20.1.3.6",
+      "url": "#sec-number.prototype.tostring",
+      "name": "Number.prototype.toString"
+    },
+    {
+      "id": "20.1.3.7",
+      "url": "#sec-number.prototype.valueof",
+      "name": "Number.prototype.valueOf"
+    },
+    {
+      "id": "20.2",
+      "url": "#sec-math-object",
+      "name": "Math"
+    },
+    {
+      "id": "20.2.1.1",
+      "url": "#sec-math.e",
+      "name": "Math.E"
+    },
+    {
+      "id": "20.2.1.2",
+      "url": "#sec-math.ln10",
+      "name": "Math.LN10"
+    },
+    {
+      "id": "20.2.1.3",
+      "url": "#sec-math.ln2",
+      "name": "Math.LN2"
+    },
+    {
+      "id": "20.2.1.4",
+      "url": "#sec-math.log10e",
+      "name": "Math.LOG10E"
+    },
+    {
+      "id": "20.2.1.5",
+      "url": "#sec-math.log2e",
+      "name": "Math.LOG2E"
+    },
+    {
+      "id": "20.2.1.6",
+      "url": "#sec-math.pi",
+      "name": "Math.PI"
+    },
+    {
+      "id": "20.2.1.7",
+      "url": "#sec-math.sqrt1_2",
+      "name": "Math.SQRT1_2"
+    },
+    {
+      "id": "20.2.1.8",
+      "url": "#sec-math.sqrt2",
+      "name": "Math.SQRT2"
+    },
+    {
+      "id": "20.2.1.9",
+      "url": "#sec-math-@@tostringtag",
+      "name": "Math[@@toStringTag]"
+    },
+    {
+      "id": "20.2.2.1",
+      "url": "#sec-math.abs",
+      "name": "Math.abs"
+    },
+    {
+      "id": "20.2.2.2",
+      "url": "#sec-math.acos",
+      "name": "Math.acos"
+    },
+    {
+      "id": "20.2.2.3",
+      "url": "#sec-math.acosh",
+      "name": "Math.acosh"
+    },
+    {
+      "id": "20.2.2.4",
+      "url": "#sec-math.asin",
+      "name": "Math.asin"
+    },
+    {
+      "id": "20.2.2.5",
+      "url": "#sec-math.asinh",
+      "name": "Math.asinh"
+    },
+    {
+      "id": "20.2.2.6",
+      "url": "#sec-math.atan",
+      "name": "Math.atan"
+    },
+    {
+      "id": "20.2.2.7",
+      "url": "#sec-math.atanh",
+      "name": "Math.atanh"
+    },
+    {
+      "id": "20.2.2.8",
+      "url": "#sec-math.atan2",
+      "name": "Math.atan2"
+    },
+    {
+      "id": "20.2.2.9",
+      "url": "#sec-math.cbrt",
+      "name": "Math.cbrt"
+    },
+    {
+      "id": "20.2.2.10",
+      "url": "#sec-math.ceil",
+      "name": "Math.ceil"
+    },
+    {
+      "id": "20.2.2.11",
+      "url": "#sec-math.clz32",
+      "name": "Math.clz32"
+    },
+    {
+      "id": "20.2.2.12",
+      "url": "#sec-math.cos",
+      "name": "Math.cos"
+    },
+    {
+      "id": "20.2.2.13",
+      "url": "#sec-math.cosh",
+      "name": "Math.cosh"
+    },
+    {
+      "id": "20.2.2.14",
+      "url": "#sec-math.exp",
+      "name": "Math.exp"
+    },
+    {
+      "id": "20.2.2.15",
+      "url": "#sec-math.expm1",
+      "name": "Math.expm1"
+    },
+    {
+      "id": "20.2.2.16",
+      "url": "#sec-math.floor",
+      "name": "Math.floor"
+    },
+    {
+      "id": "20.2.2.17",
+      "url": "#sec-math.fround",
+      "name": "Math.fround"
+    },
+    {
+      "id": "20.2.2.18",
+      "url": "#sec-math.hypot",
+      "name": "Math.hypot"
+    },
+    {
+      "id": "20.2.2.19",
+      "url": "#sec-math.imul",
+      "name": "Math.imul"
+    },
+    {
+      "id": "20.2.2.20",
+      "url": "#sec-math.log",
+      "name": "Math.log"
+    },
+    {
+      "id": "20.2.2.21",
+      "url": "#sec-math.log1p",
+      "name": "Math.log1p"
+    },
+    {
+      "id": "20.2.2.22",
+      "url": "#sec-math.log10",
+      "name": "Math.log10"
+    },
+    {
+      "id": "20.2.2.23",
+      "url": "#sec-math.log2",
+      "name": "Math.log2"
+    },
+    {
+      "id": "20.2.2.24",
+      "url": "#sec-math.max",
+      "name": "Math.max"
+    },
+    {
+      "id": "20.2.2.25",
+      "url": "#sec-math.min",
+      "name": "Math.min"
+    },
+    {
+      "id": "20.2.2.26",
+      "url": "#sec-math.pow",
+      "name": "Math.pow"
+    },
+    {
+      "id": "20.2.2.27",
+      "url": "#sec-math.random",
+      "name": "Math.random"
+    },
+    {
+      "id": "20.2.2.28",
+      "url": "#sec-math.round",
+      "name": "Math.round"
+    },
+    {
+      "id": "20.2.2.29",
+      "url": "#sec-math.sign",
+      "name": "Math.sign"
+    },
+    {
+      "id": "20.2.2.30",
+      "url": "#sec-math.sin",
+      "name": "Math.sin"
+    },
+    {
+      "id": "20.2.2.31",
+      "url": "#sec-math.sinh",
+      "name": "Math.sinh"
+    },
+    {
+      "id": "20.2.2.32",
+      "url": "#sec-math.sqrt",
+      "name": "Math.sqrt"
+    },
+    {
+      "id": "20.2.2.33",
+      "url": "#sec-math.tan",
+      "name": "Math.tan"
+    },
+    {
+      "id": "20.2.2.34",
+      "url": "#sec-math.tanh",
+      "name": "Math.tanh"
+    },
+    {
+      "id": "20.2.2.35",
+      "url": "#sec-math.trunc",
+      "name": "Math.trunc"
+    },
+    {
+      "id": "20.3",
+      "url": "#sec-date-objects",
+      "name": "Date"
+    },
+    {
+      "id": "20.3.3.1",
+      "url": "#sec-date.now",
+      "name": "Date.now"
+    },
+    {
+      "id": "20.3.3.2",
+      "url": "#sec-date.parse",
+      "name": "Date.parse"
+    },
+    {
+      "id": "20.3.3.3",
+      "url": "#sec-date.prototype",
+      "name": "Date.prototype"
+    },
+    {
+      "id": "20.3.3.4",
+      "url": "#sec-date.utc",
+      "name": "Date.UTC"
+    },
+    {
+      "id": "20.3.4.1",
+      "url": "#sec-date.prototype.constructor",
+      "name": "Date.prototype.constructor"
+    },
+    {
+      "id": "20.3.4.2",
+      "url": "#sec-date.prototype.getdate",
+      "name": "Date.prototype.getDate"
+    },
+    {
+      "id": "20.3.4.3",
+      "url": "#sec-date.prototype.getday",
+      "name": "Date.prototype.getDay"
+    },
+    {
+      "id": "20.3.4.4",
+      "url": "#sec-date.prototype.getfullyear",
+      "name": "Date.prototype.getFullYear"
+    },
+    {
+      "id": "20.3.4.5",
+      "url": "#sec-date.prototype.gethours",
+      "name": "Date.prototype.getHours"
+    },
+    {
+      "id": "20.3.4.6",
+      "url": "#sec-date.prototype.getmilliseconds",
+      "name": "Date.prototype.getMilliseconds"
+    },
+    {
+      "id": "20.3.4.7",
+      "url": "#sec-date.prototype.getminutes",
+      "name": "Date.prototype.getMinutes"
+    },
+    {
+      "id": "20.3.4.8",
+      "url": "#sec-date.prototype.getmonth",
+      "name": "Date.prototype.getMonth"
+    },
+    {
+      "id": "20.3.4.9",
+      "url": "#sec-date.prototype.getseconds",
+      "name": "Date.prototype.getSeconds"
+    },
+    {
+      "id": "20.3.4.10",
+      "url": "#sec-date.prototype.gettime",
+      "name": "Date.prototype.getTime"
+    },
+    {
+      "id": "20.3.4.11",
+      "url": "#sec-date.prototype.gettimezoneoffset",
+      "name": "Date.prototype.getTimezoneOffset"
+    },
+    {
+      "id": "20.3.4.12",
+      "url": "#sec-date.prototype.getutcdate",
+      "name": "Date.prototype.getUTCDate"
+    },
+    {
+      "id": "20.3.4.13",
+      "url": "#sec-date.prototype.getutcday",
+      "name": "Date.prototype.getUTCDay"
+    },
+    {
+      "id": "20.3.4.14",
+      "url": "#sec-date.prototype.getutcfullyear",
+      "name": "Date.prototype.getUTCFullYear"
+    },
+    {
+      "id": "20.3.4.15",
+      "url": "#sec-date.prototype.getutchours",
+      "name": "Date.prototype.getUTCHours"
+    },
+    {
+      "id": "20.3.4.16",
+      "url": "#sec-date.prototype.getutcmilliseconds",
+      "name": "Date.prototype.getUTCMilliseconds"
+    },
+    {
+      "id": "20.3.4.17",
+      "url": "#sec-date.prototype.getutcminutes",
+      "name": "Date.prototype.getUTCMinutes"
+    },
+    {
+      "id": "20.3.4.18",
+      "url": "#sec-date.prototype.getutcmonth",
+      "name": "Date.prototype.getUTCMonth"
+    },
+    {
+      "id": "20.3.4.19",
+      "url": "#sec-date.prototype.getutcseconds",
+      "name": "Date.prototype.getUTCSeconds"
+    },
+    {
+      "id": "20.3.4.20",
+      "url": "#sec-date.prototype.setdate",
+      "name": "Date.prototype.setDate"
+    },
+    {
+      "id": "20.3.4.21",
+      "url": "#sec-date.prototype.setfullyear",
+      "name": "Date.prototype.setFullYear"
+    },
+    {
+      "id": "20.3.4.22",
+      "url": "#sec-date.prototype.sethours",
+      "name": "Date.prototype.setHours"
+    },
+    {
+      "id": "20.3.4.23",
+      "url": "#sec-date.prototype.setmilliseconds",
+      "name": "Date.prototype.setMilliseconds"
+    },
+    {
+      "id": "20.3.4.24",
+      "url": "#sec-date.prototype.setminutes",
+      "name": "Date.prototype.setMinutes"
+    },
+    {
+      "id": "20.3.4.25",
+      "url": "#sec-date.prototype.setmonth",
+      "name": "Date.prototype.setMonth"
+    },
+    {
+      "id": "20.3.4.26",
+      "url": "#sec-date.prototype.setseconds",
+      "name": "Date.prototype.setSeconds"
+    },
+    {
+      "id": "20.3.4.27",
+      "url": "#sec-date.prototype.settime",
+      "name": "Date.prototype.setTime"
+    },
+    {
+      "id": "20.3.4.28",
+      "url": "#sec-date.prototype.setutcdate",
+      "name": "Date.prototype.setUTCDate"
+    },
+    {
+      "id": "20.3.4.29",
+      "url": "#sec-date.prototype.setutcfullyear",
+      "name": "Date.prototype.setUTCFullYear"
+    },
+    {
+      "id": "20.3.4.30",
+      "url": "#sec-date.prototype.setutchours",
+      "name": "Date.prototype.setUTCHours"
+    },
+    {
+      "id": "20.3.4.31",
+      "url": "#sec-date.prototype.setutcmilliseconds",
+      "name": "Date.prototype.setUTCMilliseconds"
+    },
+    {
+      "id": "20.3.4.32",
+      "url": "#sec-date.prototype.setutcminutes",
+      "name": "Date.prototype.setUTCMinutes"
+    },
+    {
+      "id": "20.3.4.33",
+      "url": "#sec-date.prototype.setutcmonth",
+      "name": "Date.prototype.setUTCMonth"
+    },
+    {
+      "id": "20.3.4.34",
+      "url": "#sec-date.prototype.setutcseconds",
+      "name": "Date.prototype.setUTCSeconds"
+    },
+    {
+      "id": "20.3.4.35",
+      "url": "#sec-date.prototype.todatestring",
+      "name": "Date.prototype.toDateString"
+    },
+    {
+      "id": "20.3.4.36",
+      "url": "#sec-date.prototype.toisostring",
+      "name": "Date.prototype.toISOString"
+    },
+    {
+      "id": "20.3.4.37",
+      "url": "#sec-date.prototype.tojson",
+      "name": "Date.prototype.toJSON"
+    },
+    {
+      "id": "20.3.4.38",
+      "url": "#sec-date.prototype.tolocaledatestring",
+      "name": "Date.prototype.toLocaleDateString"
+    },
+    {
+      "id": "20.3.4.39",
+      "url": "#sec-date.prototype.tolocalestring",
+      "name": "Date.prototype.toLocaleString"
+    },
+    {
+      "id": "20.3.4.40",
+      "url": "#sec-date.prototype.tolocaletimestring",
+      "name": "Date.prototype.toLocaleTimeString"
+    },
+    {
+      "id": "20.3.4.41",
+      "url": "#sec-date.prototype.tostring",
+      "name": "Date.prototype.toString"
+    },
+    {
+      "id": "20.3.4.42",
+      "url": "#sec-date.prototype.totimestring",
+      "name": "Date.prototype.toTimeString"
+    },
+    {
+      "id": "20.3.4.43",
+      "url": "#sec-date.prototype.toutcstring",
+      "name": "Date.prototype.toUTCString"
+    },
+    {
+      "id": "20.3.4.44",
+      "url": "#sec-date.prototype.valueof",
+      "name": "Date.prototype.valueOf"
+    },
+    {
+      "id": "20.3.4.45",
+      "url": "#sec-date.prototype-@@toprimitive",
+      "name": "Date.prototype[@@toPrimitive]"
+    },
+    {
+      "id": "21.1",
+      "url": "#sec-string-objects",
+      "name": "String"
+    },
+    {
+      "id": "21.1.2.1",
+      "url": "#sec-string.fromcharcode",
+      "name": "String.fromCharCode"
+    },
+    {
+      "id": "21.1.2.2",
+      "url": "#sec-string.fromcodepoint",
+      "name": "String.fromCodePoint"
+    },
+    {
+      "id": "21.1.2.3",
+      "url": "#sec-string.prototype",
+      "name": "String.prototype"
+    },
+    {
+      "id": "21.1.2.4",
+      "url": "#sec-string.raw",
+      "name": "String.raw"
+    },
+    {
+      "id": "21.1.3.1",
+      "url": "#sec-string.prototype.charat",
+      "name": "String.prototype.charAt"
+    },
+    {
+      "id": "21.1.3.2",
+      "url": "#sec-string.prototype.charcodeat",
+      "name": "String.prototype.charCodeAt"
+    },
+    {
+      "id": "21.1.3.3",
+      "url": "#sec-string.prototype.codepointat",
+      "name": "String.prototype.codePointAt"
+    },
+    {
+      "id": "21.1.3.4",
+      "url": "#sec-string.prototype.concat",
+      "name": "String.prototype.concat"
+    },
+    {
+      "id": "21.1.3.5",
+      "url": "#sec-string.prototype.constructor",
+      "name": "String.prototype.constructor"
+    },
+    {
+      "id": "21.1.3.6",
+      "url": "#sec-string.prototype.endswith",
+      "name": "String.prototype.endsWith"
+    },
+    {
+      "id": "21.1.3.7",
+      "url": "#sec-string.prototype.includes",
+      "name": "String.prototype.includes"
+    },
+    {
+      "id": "21.1.3.8",
+      "url": "#sec-string.prototype.indexof",
+      "name": "String.prototype.indexOf"
+    },
+    {
+      "id": "21.1.3.9",
+      "url": "#sec-string.prototype.lastindexof",
+      "name": "String.prototype.lastIndexOf"
+    },
+    {
+      "id": "21.1.3.10",
+      "url": "#sec-string.prototype.localecompare",
+      "name": "String.prototype.localeCompare"
+    },
+    {
+      "id": "21.1.3.11",
+      "url": "#sec-string.prototype.match",
+      "name": "String.prototype.match"
+    },
+    {
+      "id": "21.1.3.12",
+      "url": "#sec-string.prototype.normalize",
+      "name": "String.prototype.normalize"
+    },
+    {
+      "id": "21.1.3.13",
+      "url": "#sec-string.prototype.repeat",
+      "name": "String.prototype.repeat"
+    },
+    {
+      "id": "21.1.3.14",
+      "url": "#sec-string.prototype.replace",
+      "name": "String.prototype.replace"
+    },
+    {
+      "id": "21.1.3.15",
+      "url": "#sec-string.prototype.search",
+      "name": "String.prototype.search"
+    },
+    {
+      "id": "21.1.3.16",
+      "url": "#sec-string.prototype.slice",
+      "name": "String.prototype.slice"
+    },
+    {
+      "id": "21.1.3.17",
+      "url": "#sec-string.prototype.split",
+      "name": "String.prototype.split"
+    },
+    {
+      "id": "21.1.3.18",
+      "url": "#sec-string.prototype.startswith",
+      "name": "String.prototype.startsWith"
+    },
+    {
+      "id": "21.1.3.19",
+      "url": "#sec-string.prototype.substring",
+      "name": "String.prototype.substring"
+    },
+    {
+      "id": "21.1.3.20",
+      "url": "#sec-string.prototype.tolocalelowercase",
+      "name": "String.prototype.toLocaleLowerCase"
+    },
+    {
+      "id": "21.1.3.21",
+      "url": "#sec-string.prototype.tolocaleuppercase",
+      "name": "String.prototype.toLocaleUpperCase"
+    },
+    {
+      "id": "21.1.3.22",
+      "url": "#sec-string.prototype.tolowercase",
+      "name": "String.prototype.toLowerCase"
+    },
+    {
+      "id": "21.1.3.23",
+      "url": "#sec-string.prototype.tostring",
+      "name": "String.prototype.toString"
+    },
+    {
+      "id": "21.1.3.24",
+      "url": "#sec-string.prototype.touppercase",
+      "name": "String.prototype.toUpperCase"
+    },
+    {
+      "id": "21.1.3.25",
+      "url": "#sec-string.prototype.trim",
+      "name": "String.prototype.trim"
+    },
+    {
+      "id": "21.1.3.26",
+      "url": "#sec-string.prototype.valueof",
+      "name": "String.prototype.valueOf"
+    },
+    {
+      "id": "21.1.3.27",
+      "url": "#sec-string.prototype-@@iterator",
+      "name": "String.prototype[@@iterator]"
+    },
+    {
+      "id": "21.2",
+      "url": "#sec-regexp-regular-expression-objects",
+      "name": "RegExp"
+    },
+    {
+      "id": "21.2.4.1",
+      "url": "#sec-regexp.prototype",
+      "name": "RegExp.prototype"
+    },
+    {
+      "id": "21.2.4.2",
+      "url": "#sec-get-regexp-@@species",
+      "name": "RegExp[@@species]"
+    },
+    {
+      "id": "21.2.5.1",
+      "url": "#sec-regexp.prototype.constructor",
+      "name": "RegExp.prototype.constructor"
+    },
+    {
+      "id": "21.2.5.2",
+      "url": "#sec-regexp.prototype.exec",
+      "name": "RegExp.prototype.exec"
+    },
+    {
+      "id": "21.2.5.3",
+      "url": "#sec-get-regexp.prototype.flags",
+      "name": "RegExp.prototype.flags"
+    },
+    {
+      "id": "21.2.5.4",
+      "url": "#sec-get-regexp.prototype.global",
+      "name": "RegExp.prototype.global"
+    },
+    {
+      "id": "21.2.5.5",
+      "url": "#sec-get-regexp.prototype.ignorecase",
+      "name": "RegExp.prototype.ignoreCase"
+    },
+    {
+      "id": "21.2.5.6",
+      "url": "#sec-regexp.prototype-@@match",
+      "name": "RegExp.prototype[@@match]"
+    },
+    {
+      "id": "21.2.5.7",
+      "url": "#sec-get-regexp.prototype.multiline",
+      "name": "RegExp.prototype.multiline"
+    },
+    {
+      "id": "21.2.5.8",
+      "url": "#sec-regexp.prototype-@@replace",
+      "name": "RegExp.prototype[@@replace]"
+    },
+    {
+      "id": "21.2.5.9",
+      "url": "#sec-regexp.prototype-@@search",
+      "name": "RegExp.prototype[@@search]"
+    },
+    {
+      "id": "21.2.5.10",
+      "url": "#sec-get-regexp.prototype.source",
+      "name": "RegExp.prototype.source"
+    },
+    {
+      "id": "21.2.5.11",
+      "url": "#sec-regexp.prototype-@@split",
+      "name": "RegExp.prototype[@@split]"
+    },
+    {
+      "id": "21.2.5.12",
+      "url": "#sec-get-regexp.prototype.sticky",
+      "name": "RegExp.prototype.sticky"
+    },
+    {
+      "id": "21.2.5.13",
+      "url": "#sec-regexp.prototype.test",
+      "name": "RegExp.prototype.test"
+    },
+    {
+      "id": "21.2.5.14",
+      "url": "#sec-regexp.prototype.tostring",
+      "name": "RegExp.prototype.toString"
+    },
+    {
+      "id": "21.2.5.15",
+      "url": "#sec-get-regexp.prototype.unicode",
+      "name": "RegExp.prototype.unicode"
+    },
+    {
+      "id": "22.1",
+      "url": "#sec-array-objects",
+      "name": "Array"
+    },
+    {
+      "id": "22.1.2.1",
+      "url": "#sec-array.from",
+      "name": "Array.from"
+    },
+    {
+      "id": "22.1.2.2",
+      "url": "#sec-array.isarray",
+      "name": "Array.isArray"
+    },
+    {
+      "id": "22.1.2.3",
+      "url": "#sec-array.of",
+      "name": "Array.of"
+    },
+    {
+      "id": "22.1.2.4",
+      "url": "#sec-array.prototype",
+      "name": "Array.prototype"
+    },
+    {
+      "id": "22.1.2.5",
+      "url": "#sec-get-array-@@species",
+      "name": "Array[@@species]"
+    },
+    {
+      "id": "22.1.3.1",
+      "url": "#sec-array.prototype.concat",
+      "name": "Array.prototype.concat"
+    },
+    {
+      "id": "22.1.3.2",
+      "url": "#sec-array.prototype.constructor",
+      "name": "Array.prototype.constructor"
+    },
+    {
+      "id": "22.1.3.3",
+      "url": "#sec-array.prototype.copywithin",
+      "name": "Array.prototype.copyWithin"
+    },
+    {
+      "id": "22.1.3.4",
+      "url": "#sec-array.prototype.entries",
+      "name": "Array.prototype.entries"
+    },
+    {
+      "id": "22.1.3.5",
+      "url": "#sec-array.prototype.every",
+      "name": "Array.prototype.every"
+    },
+    {
+      "id": "22.1.3.6",
+      "url": "#sec-array.prototype.fill",
+      "name": "Array.prototype.fill"
+    },
+    {
+      "id": "22.1.3.7",
+      "url": "#sec-array.prototype.filter",
+      "name": "Array.prototype.filter"
+    },
+    {
+      "id": "22.1.3.8",
+      "url": "#sec-array.prototype.find",
+      "name": "Array.prototype.find"
+    },
+    {
+      "id": "22.1.3.9",
+      "url": "#sec-array.prototype.findindex",
+      "name": "Array.prototype.findIndex"
+    },
+    {
+      "id": "22.1.3.10",
+      "url": "#sec-array.prototype.foreach",
+      "name": "Array.prototype.forEach"
+    },
+    {
+      "id": "22.1.3.11",
+      "url": "#sec-array.prototype.indexof",
+      "name": "Array.prototype.indexOf"
+    },
+    {
+      "id": "22.1.3.12",
+      "url": "#sec-array.prototype.join",
+      "name": "Array.prototype.join"
+    },
+    {
+      "id": "22.1.3.13",
+      "url": "#sec-array.prototype.keys",
+      "name": "Array.prototype.keys"
+    },
+    {
+      "id": "22.1.3.14",
+      "url": "#sec-array.prototype.lastindexof",
+      "name": "Array.prototype.lastIndexOf"
+    },
+    {
+      "id": "22.1.3.15",
+      "url": "#sec-array.prototype.map",
+      "name": "Array.prototype.map"
+    },
+    {
+      "id": "22.1.3.16",
+      "url": "#sec-array.prototype.pop",
+      "name": "Array.prototype.pop"
+    },
+    {
+      "id": "22.1.3.17",
+      "url": "#sec-array.prototype.push",
+      "name": "Array.prototype.push"
+    },
+    {
+      "id": "22.1.3.18",
+      "url": "#sec-array.prototype.reduce",
+      "name": "Array.prototype.reduce"
+    },
+    {
+      "id": "22.1.3.19",
+      "url": "#sec-array.prototype.reduceright",
+      "name": "Array.prototype.reduceRight"
+    },
+    {
+      "id": "22.1.3.20",
+      "url": "#sec-array.prototype.reverse",
+      "name": "Array.prototype.reverse"
+    },
+    {
+      "id": "22.1.3.21",
+      "url": "#sec-array.prototype.shift",
+      "name": "Array.prototype.shift"
+    },
+    {
+      "id": "22.1.3.22",
+      "url": "#sec-array.prototype.slice",
+      "name": "Array.prototype.slice"
+    },
+    {
+      "id": "22.1.3.23",
+      "url": "#sec-array.prototype.some",
+      "name": "Array.prototype.some"
+    },
+    {
+      "id": "22.1.3.24",
+      "url": "#sec-array.prototype.sort",
+      "name": "Array.prototype.sort"
+    },
+    {
+      "id": "22.1.3.25",
+      "url": "#sec-array.prototype.splice",
+      "name": "Array.prototype.splice"
+    },
+    {
+      "id": "22.1.3.26",
+      "url": "#sec-array.prototype.tolocalestring",
+      "name": "Array.prototype.toLocaleString"
+    },
+    {
+      "id": "22.1.3.27",
+      "url": "#sec-array.prototype.tostring",
+      "name": "Array.prototype.toString"
+    },
+    {
+      "id": "22.1.3.28",
+      "url": "#sec-array.prototype.unshift",
+      "name": "Array.prototype.unshift"
+    },
+    {
+      "id": "22.1.3.29",
+      "url": "#sec-array.prototype.values",
+      "name": "Array.prototype.values"
+    },
+    {
+      "id": "22.1.3.30",
+      "url": "#sec-array.prototype-@@iterator",
+      "name": "Array.prototype[@@iterator]"
+    },
+    {
+      "id": "22.1.3.31",
+      "url": "#sec-array.prototype-@@unscopables",
+      "name": "Array.prototype[@@unscopables]"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Int8Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Uint8Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Uint8ClampedArray"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Int16Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Uint16Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Int32Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Uint32Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Float32Array"
+    },
+    {
+      "id": "22.2",
+      "url": "#sec-typedarray-objects",
+      "name": "Float64Array"
+    },
+    {
+      "id": "22.2.2.1",
+      "url": "#sec-%typedarray%.from",
+      "name": "%TypedArray%.from"
+    },
+    {
+      "id": "22.2.2.2",
+      "url": "#sec-%typedarray%.of",
+      "name": "%TypedArray%.of"
+    },
+    {
+      "id": "22.2.2.3",
+      "url": "#sec-%typedarray%.prototype",
+      "name": "%TypedArray%.prototype"
+    },
+    {
+      "id": "22.2.2.4",
+      "url": "#sec-get-%typedarray%-@@species",
+      "name": "%TypedArray%[@@species]"
+    },
+    {
+      "id": "22.2.3.1",
+      "url": "#sec-get-%typedarray%.prototype.buffer",
+      "name": "%TypedArray%.prototype.buffer"
+    },
+    {
+      "id": "22.2.3.2",
+      "url": "#sec-get-%typedarray%.prototype.bytelength",
+      "name": "%TypedArray%.prototype.byteLength"
+    },
+    {
+      "id": "22.2.3.3",
+      "url": "#sec-get-%typedarray%.prototype.byteoffset",
+      "name": "%TypedArray%.prototype.byteOffset"
+    },
+    {
+      "id": "22.2.3.4",
+      "url": "#sec-%typedarray%.prototype.constructor",
+      "name": "%TypedArray%.prototype.constructor"
+    },
+    {
+      "id": "22.2.3.5",
+      "url": "#sec-%typedarray%.prototype.copywithin",
+      "name": "%TypedArray%.prototype.copyWithin"
+    },
+    {
+      "id": "22.2.3.6",
+      "url": "#sec-%typedarray%.prototype.entries",
+      "name": "%TypedArray%.prototype.entries"
+    },
+    {
+      "id": "22.2.3.7",
+      "url": "#sec-%typedarray%.prototype.every",
+      "name": "%TypedArray%.prototype.every"
+    },
+    {
+      "id": "22.2.3.8",
+      "url": "#sec-%typedarray%.prototype.fill",
+      "name": "%TypedArray%.prototype.fill"
+    },
+    {
+      "id": "22.2.3.9",
+      "url": "#sec-%typedarray%.prototype.filter",
+      "name": "%TypedArray%.prototype.filter"
+    },
+    {
+      "id": "22.2.3.10",
+      "url": "#sec-%typedarray%.prototype.find",
+      "name": "%TypedArray%.prototype.find"
+    },
+    {
+      "id": "22.2.3.11",
+      "url": "#sec-%typedarray%.prototype.findindex",
+      "name": "%TypedArray%.prototype.findIndex"
+    },
+    {
+      "id": "22.2.3.12",
+      "url": "#sec-%typedarray%.prototype.foreach",
+      "name": "%TypedArray%.prototype.forEach"
+    },
+    {
+      "id": "22.2.3.13",
+      "url": "#sec-%typedarray%.prototype.indexof",
+      "name": "%TypedArray%.prototype.indexOf"
+    },
+    {
+      "id": "22.2.3.14",
+      "url": "#sec-%typedarray%.prototype.join",
+      "name": "%TypedArray%.prototype.join"
+    },
+    {
+      "id": "22.2.3.15",
+      "url": "#sec-%typedarray%.prototype.keys",
+      "name": "%TypedArray%.prototype.keys"
+    },
+    {
+      "id": "22.2.3.16",
+      "url": "#sec-%typedarray%.prototype.lastindexof",
+      "name": "%TypedArray%.prototype.lastIndexOf"
+    },
+    {
+      "id": "22.2.3.17",
+      "url": "#sec-get-%typedarray%.prototype.length",
+      "name": "%TypedArray%.prototype.length"
+    },
+    {
+      "id": "22.2.3.18",
+      "url": "#sec-%typedarray%.prototype.map",
+      "name": "%TypedArray%.prototype.map"
+    },
+    {
+      "id": "22.2.3.19",
+      "url": "#sec-%typedarray%.prototype.reduce",
+      "name": "%TypedArray%.prototype.reduce"
+    },
+    {
+      "id": "22.2.3.20",
+      "url": "#sec-%typedarray%.prototype.reduceright",
+      "name": "%TypedArray%.prototype.reduceRight"
+    },
+    {
+      "id": "22.2.3.21",
+      "url": "#sec-%typedarray%.prototype.reverse",
+      "name": "%TypedArray%.prototype.reverse"
+    },
+    {
+      "id": "22.2.3.22",
+      "url": "#sec-%typedarray%.prototype.set-overloaded-offset",
+      "name": "%TypedArray%.prototype.set"
+    },
+    {
+      "id": "22.2.3.23",
+      "url": "#sec-%typedarray%.prototype.slice",
+      "name": "%TypedArray%.prototype.slice"
+    },
+    {
+      "id": "22.2.3.24",
+      "url": "#sec-%typedarray%.prototype.some",
+      "name": "%TypedArray%.prototype.some"
+    },
+    {
+      "id": "22.2.3.25",
+      "url": "#sec-%typedarray%.prototype.sort",
+      "name": "%TypedArray%.prototype.sort"
+    },
+    {
+      "id": "22.2.3.26",
+      "url": "#sec-%typedarray%.prototype.subarray",
+      "name": "%TypedArray%.prototype.subarray"
+    },
+    {
+      "id": "22.2.3.27",
+      "url": "#sec-%typedarray%.prototype.tolocalestring",
+      "name": "%TypedArray%.prototype.toLocaleString"
+    },
+    {
+      "id": "22.2.3.28",
+      "url": "#sec-%typedarray%.prototype.tostring",
+      "name": "%TypedArray%.prototype.toString"
+    },
+    {
+      "id": "22.2.3.29",
+      "url": "#sec-%typedarray%.prototype.values",
+      "name": "%TypedArray%.prototype.values"
+    },
+    {
+      "id": "22.2.3.30",
+      "url": "#sec-%typedarray%.prototype-@@iterator",
+      "name": "%TypedArray%.prototype[@@iterator]"
+    },
+    {
+      "id": "22.2.3.31",
+      "url": "#sec-get-%typedarray%.prototype-@@tostringtag",
+      "name": "%TypedArray%.prototype[@@toStringTag]"
+    },
+    {
+      "id": "23.1",
+      "url": "#sec-map-objects",
+      "name": "Map"
+    },
+    {
+      "id": "23.1.2.1",
+      "url": "#sec-map.prototype",
+      "name": "Map.prototype"
+    },
+    {
+      "id": "23.1.2.2",
+      "url": "#sec-get-map-@@species",
+      "name": "Map[@@species]"
+    },
+    {
+      "id": "23.1.3.1",
+      "url": "#sec-map.prototype.clear",
+      "name": "Map.prototype.clear"
+    },
+    {
+      "id": "23.1.3.2",
+      "url": "#sec-map.prototype.constructor",
+      "name": "Map.prototype.constructor"
+    },
+    {
+      "id": "23.1.3.3",
+      "url": "#sec-map.prototype.delete",
+      "name": "Map.prototype.delete"
+    },
+    {
+      "id": "23.1.3.4",
+      "url": "#sec-map.prototype.entries",
+      "name": "Map.prototype.entries"
+    },
+    {
+      "id": "23.1.3.5",
+      "url": "#sec-map.prototype.foreach",
+      "name": "Map.prototype.forEach"
+    },
+    {
+      "id": "23.1.3.6",
+      "url": "#sec-map.prototype.get",
+      "name": "Map.prototype.get"
+    },
+    {
+      "id": "23.1.3.7",
+      "url": "#sec-map.prototype.has",
+      "name": "Map.prototype.has"
+    },
+    {
+      "id": "23.1.3.8",
+      "url": "#sec-map.prototype.keys",
+      "name": "Map.prototype.keys"
+    },
+    {
+      "id": "23.1.3.9",
+      "url": "#sec-map.prototype.set",
+      "name": "Map.prototype.set"
+    },
+    {
+      "id": "23.1.3.10",
+      "url": "#sec-get-map.prototype.size",
+      "name": "Map.prototype.size"
+    },
+    {
+      "id": "23.1.3.11",
+      "url": "#sec-map.prototype.values",
+      "name": "Map.prototype.values"
+    },
+    {
+      "id": "23.1.3.12",
+      "url": "#sec-map.prototype-@@iterator",
+      "name": "Map.prototype[@@iterator]"
+    },
+    {
+      "id": "23.1.3.13",
+      "url": "#sec-map.prototype-@@tostringtag",
+      "name": "Map.prototype[@@toStringTag]"
+    },
+    {
+      "id": "23.2",
+      "url": "#sec-set-objects",
+      "name": "Set"
+    },
+    {
+      "id": "23.2.2.1",
+      "url": "#sec-set.prototype",
+      "name": "Set.prototype"
+    },
+    {
+      "id": "23.2.2.2",
+      "url": "#sec-get-set-@@species",
+      "name": "Set[@@species]"
+    },
+    {
+      "id": "23.2.3.1",
+      "url": "#sec-set.prototype.add",
+      "name": "Set.prototype.add"
+    },
+    {
+      "id": "23.2.3.2",
+      "url": "#sec-set.prototype.clear",
+      "name": "Set.prototype.clear"
+    },
+    {
+      "id": "23.2.3.3",
+      "url": "#sec-set.prototype.constructor",
+      "name": "Set.prototype.constructor"
+    },
+    {
+      "id": "23.2.3.4",
+      "url": "#sec-set.prototype.delete",
+      "name": "Set.prototype.delete"
+    },
+    {
+      "id": "23.2.3.5",
+      "url": "#sec-set.prototype.entries",
+      "name": "Set.prototype.entries"
+    },
+    {
+      "id": "23.2.3.6",
+      "url": "#sec-set.prototype.foreach",
+      "name": "Set.prototype.forEach"
+    },
+    {
+      "id": "23.2.3.7",
+      "url": "#sec-set.prototype.has",
+      "name": "Set.prototype.has"
+    },
+    {
+      "id": "23.2.3.8",
+      "url": "#sec-set.prototype.keys",
+      "name": "Set.prototype.keys"
+    },
+    {
+      "id": "23.2.3.9",
+      "url": "#sec-get-set.prototype.size",
+      "name": "Set.prototype.size"
+    },
+    {
+      "id": "23.2.3.10",
+      "url": "#sec-set.prototype.values",
+      "name": "Set.prototype.values"
+    },
+    {
+      "id": "23.2.3.11",
+      "url": "#sec-set.prototype-@@iterator",
+      "name": "Set.prototype[@@iterator]"
+    },
+    {
+      "id": "23.2.3.12",
+      "url": "#sec-set.prototype-@@tostringtag",
+      "name": "Set.prototype[@@toStringTag]"
+    },
+    {
+      "id": "23.3",
+      "url": "#sec-weakmap-objects",
+      "name": "WeakMap"
+    },
+    {
+      "id": "23.3.2.1",
+      "url": "#sec-weakmap.prototype",
+      "name": "WeakMap.prototype"
+    },
+    {
+      "id": "23.3.3.1",
+      "url": "#sec-weakmap.prototype.constructor",
+      "name": "WeakMap.prototype.constructor"
+    },
+    {
+      "id": "23.3.3.2",
+      "url": "#sec-weakmap.prototype.delete",
+      "name": "WeakMap.prototype.delete"
+    },
+    {
+      "id": "23.3.3.3",
+      "url": "#sec-weakmap.prototype.get",
+      "name": "WeakMap.prototype.get"
+    },
+    {
+      "id": "23.3.3.4",
+      "url": "#sec-weakmap.prototype.has",
+      "name": "WeakMap.prototype.has"
+    },
+    {
+      "id": "23.3.3.5",
+      "url": "#sec-weakmap.prototype.set",
+      "name": "WeakMap.prototype.set"
+    },
+    {
+      "id": "23.3.3.6",
+      "url": "#sec-weakmap.prototype-@@tostringtag",
+      "name": "WeakMap.prototype[@@toStringTag]"
+    },
+    {
+      "id": "23.4",
+      "url": "#sec-weakset-objects",
+      "name": "WeakSet"
+    },
+    {
+      "id": "23.4.2.1",
+      "url": "#sec-weakset.prototype",
+      "name": "WeakSet.prototype"
+    },
+    {
+      "id": "23.4.3.1",
+      "url": "#sec-weakset.prototype.add",
+      "name": "WeakSet.prototype.add"
+    },
+    {
+      "id": "23.4.3.2",
+      "url": "#sec-weakset.prototype.constructor",
+      "name": "WeakSet.prototype.constructor"
+    },
+    {
+      "id": "23.4.3.3",
+      "url": "#sec-weakset.prototype.delete",
+      "name": "WeakSet.prototype.delete"
+    },
+    {
+      "id": "23.4.3.4",
+      "url": "#sec-weakset.prototype.has",
+      "name": "WeakSet.prototype.has"
+    },
+    {
+      "id": "23.4.3.5",
+      "url": "#sec-weakset.prototype-@@tostringtag",
+      "name": "WeakSet.prototype[@@toStringTag]"
+    },
+    {
+      "id": "24.1",
+      "url": "#sec-arraybuffer-objects",
+      "name": "ArrayBuffer"
+    },
+    {
+      "id": "24.1.3.1",
+      "url": "#sec-arraybuffer.isview",
+      "name": "ArrayBuffer.isView"
+    },
+    {
+      "id": "24.1.3.2",
+      "url": "#sec-arraybuffer.prototype",
+      "name": "ArrayBuffer.prototype"
+    },
+    {
+      "id": "24.1.3.3",
+      "url": "#sec-get-arraybuffer-@@species",
+      "name": "ArrayBuffer[@@species]"
+    },
+    {
+      "id": "24.1.4.1",
+      "url": "#sec-get-arraybuffer.prototype.bytelength",
+      "name": "ArrayBuffer.prototype.byteLength"
+    },
+    {
+      "id": "24.1.4.2",
+      "url": "#sec-arraybuffer.prototype.constructor",
+      "name": "ArrayBuffer.prototype.constructor"
+    },
+    {
+      "id": "24.1.4.3",
+      "url": "#sec-arraybuffer.prototype.slice",
+      "name": "ArrayBuffer.prototype.slice"
+    },
+    {
+      "id": "24.1.4.4",
+      "url": "#sec-arraybuffer.prototype-@@tostringtag",
+      "name": "ArrayBuffer.prototype[@@toStringTag]"
+    },
+    {
+      "id": "24.2",
+      "url": "#sec-dataview-objects",
+      "name": "DataView"
+    },
+    {
+      "id": "24.2.3.1",
+      "url": "#sec-dataview.prototype",
+      "name": "DataView.prototype"
+    },
+    {
+      "id": "24.2.4.1",
+      "url": "#sec-get-dataview.prototype.buffer",
+      "name": "DataView.prototype.buffer"
+    },
+    {
+      "id": "24.2.4.2",
+      "url": "#sec-get-dataview.prototype.bytelength",
+      "name": "DataView.prototype.byteLength"
+    },
+    {
+      "id": "24.2.4.3",
+      "url": "#sec-get-dataview.prototype.byteoffset",
+      "name": "DataView.prototype.byteOffset"
+    },
+    {
+      "id": "24.2.4.4",
+      "url": "#sec-dataview.prototype.constructor",
+      "name": "DataView.prototype.constructor"
+    },
+    {
+      "id": "24.2.4.5",
+      "url": "#sec-dataview.prototype.getfloat32",
+      "name": "DataView.prototype.getFloat32"
+    },
+    {
+      "id": "24.2.4.6",
+      "url": "#sec-dataview.prototype.getfloat64",
+      "name": "DataView.prototype.getFloat64"
+    },
+    {
+      "id": "24.2.4.7",
+      "url": "#sec-dataview.prototype.getint8",
+      "name": "DataView.prototype.getInt8"
+    },
+    {
+      "id": "24.2.4.8",
+      "url": "#sec-dataview.prototype.getint16",
+      "name": "DataView.prototype.getInt16"
+    },
+    {
+      "id": "24.2.4.9",
+      "url": "#sec-dataview.prototype.getint32",
+      "name": "DataView.prototype.getInt32"
+    },
+    {
+      "id": "24.2.4.10",
+      "url": "#sec-dataview.prototype.getuint8",
+      "name": "DataView.prototype.getUint8"
+    },
+    {
+      "id": "24.2.4.11",
+      "url": "#sec-dataview.prototype.getuint16",
+      "name": "DataView.prototype.getUint16"
+    },
+    {
+      "id": "24.2.4.12",
+      "url": "#sec-dataview.prototype.getuint32",
+      "name": "DataView.prototype.getUint32"
+    },
+    {
+      "id": "24.2.4.13",
+      "url": "#sec-dataview.prototype.setfloat32",
+      "name": "DataView.prototype.setFloat32"
+    },
+    {
+      "id": "24.2.4.14",
+      "url": "#sec-dataview.prototype.setfloat64",
+      "name": "DataView.prototype.setFloat64"
+    },
+    {
+      "id": "24.2.4.15",
+      "url": "#sec-dataview.prototype.setint8",
+      "name": "DataView.prototype.setInt8"
+    },
+    {
+      "id": "24.2.4.16",
+      "url": "#sec-dataview.prototype.setint16",
+      "name": "DataView.prototype.setInt16"
+    },
+    {
+      "id": "24.2.4.17",
+      "url": "#sec-dataview.prototype.setint32",
+      "name": "DataView.prototype.setInt32"
+    },
+    {
+      "id": "24.2.4.18",
+      "url": "#sec-dataview.prototype.setuint8",
+      "name": "DataView.prototype.setUint8"
+    },
+    {
+      "id": "24.2.4.19",
+      "url": "#sec-dataview.prototype.setuint16",
+      "name": "DataView.prototype.setUint16"
+    },
+    {
+      "id": "24.2.4.20",
+      "url": "#sec-dataview.prototype.setuint32",
+      "name": "DataView.prototype.setUint32"
+    },
+    {
+      "id": "24.2.4.21",
+      "url": "#sec-dataview.prototype-@@tostringtag",
+      "name": "DataView.prototype[@@toStringTag]"
+    },
+    {
+      "id": "24.3",
+      "url": "#sec-json-object",
       "name": "JSON"
     },
     {
-      "id": "15.12.2",
-      "url": "#sec-15.12.2",
+      "id": "24.3.1",
+      "url": "#sec-json.parse",
       "name": "JSON.parse"
     },
     {
-      "id": "15.12.3",
-      "url": "#sec-15.12.3",
+      "id": "24.3.2",
+      "url": "#sec-json.stringify",
       "name": "JSON.stringify"
     },
     {
-      "id": "B.2.1",
-      "url": "#sec-B.2.1",
+      "id": "24.3.3",
+      "url": "#sec-json-@@tostringtag",
+      "name": "JSON[@@toStringTag]"
+    },
+    {
+      "id": "25.4",
+      "url": "#sec-promise-objects",
+      "name": "Promise"
+    },
+    {
+      "id": "25.4.4.1",
+      "url": "#sec-promise.all",
+      "name": "Promise.all"
+    },
+    {
+      "id": "25.4.4.2",
+      "url": "#sec-promise.prototype",
+      "name": "Promise.prototype"
+    },
+    {
+      "id": "25.4.4.3",
+      "url": "#sec-promise.race",
+      "name": "Promise.race"
+    },
+    {
+      "id": "25.4.4.4",
+      "url": "#sec-promise.reject",
+      "name": "Promise.reject"
+    },
+    {
+      "id": "25.4.4.5",
+      "url": "#sec-promise.resolve",
+      "name": "Promise.resolve"
+    },
+    {
+      "id": "25.4.4.6",
+      "url": "#sec-get-promise-@@species",
+      "name": "Promise[@@species]"
+    },
+    {
+      "id": "25.4.5.1",
+      "url": "#sec-promise.prototype.catch",
+      "name": "Promise.prototype.catch"
+    },
+    {
+      "id": "25.4.5.2",
+      "url": "#sec-promise.prototype.constructor",
+      "name": "Promise.prototype.constructor"
+    },
+    {
+      "id": "25.4.5.3",
+      "url": "#sec-promise.prototype.then",
+      "name": "Promise.prototype.then"
+    },
+    {
+      "id": "25.4.5.4",
+      "url": "#sec-promise.prototype-@@tostringtag",
+      "name": "Promise.prototype[@@toStringTag]"
+    },
+    {
+      "id": "26.1",
+      "url": "#sec-reflect-object",
+      "name": "Reflect"
+    },
+    {
+      "id": "26.1.1",
+      "url": "#sec-reflect.apply",
+      "name": "Reflect.apply"
+    },
+    {
+      "id": "26.1.2",
+      "url": "#sec-reflect.construct",
+      "name": "Reflect.construct"
+    },
+    {
+      "id": "26.1.3",
+      "url": "#sec-reflect.defineproperty",
+      "name": "Reflect.defineProperty"
+    },
+    {
+      "id": "26.1.4",
+      "url": "#sec-reflect.deleteproperty",
+      "name": "Reflect.deleteProperty"
+    },
+    {
+      "id": "26.1.5",
+      "url": "#sec-reflect.enumerate",
+      "name": "Reflect.enumerate"
+    },
+    {
+      "id": "26.1.6",
+      "url": "#sec-reflect.get",
+      "name": "Reflect.get"
+    },
+    {
+      "id": "26.1.7",
+      "url": "#sec-reflect.getownpropertydescriptor",
+      "name": "Reflect.getOwnPropertyDescriptor"
+    },
+    {
+      "id": "26.1.8",
+      "url": "#sec-reflect.getprototypeof",
+      "name": "Reflect.getPrototypeOf"
+    },
+    {
+      "id": "26.1.9",
+      "url": "#sec-reflect.has",
+      "name": "Reflect.has"
+    },
+    {
+      "id": "26.1.10",
+      "url": "#sec-reflect.isextensible",
+      "name": "Reflect.isExtensible"
+    },
+    {
+      "id": "26.1.11",
+      "url": "#sec-reflect.ownkeys",
+      "name": "Reflect.ownKeys"
+    },
+    {
+      "id": "26.1.12",
+      "url": "#sec-reflect.preventextensions",
+      "name": "Reflect.preventExtensions"
+    },
+    {
+      "id": "26.1.13",
+      "url": "#sec-reflect.set",
+      "name": "Reflect.set"
+    },
+    {
+      "id": "26.1.14",
+      "url": "#sec-reflect.setprototypeof",
+      "name": "Reflect.setPrototypeOf"
+    },
+    {
+      "id": "26.2",
+      "url": "#sec-proxy-objects",
+      "name": "Proxy"
+    },
+    {
+      "id": "26.2.2.1",
+      "url": "#sec-proxy.revocable",
+      "name": "Proxy.revocable"
+    },
+    {
+      "id": "B.2.1.1",
+      "url": "#sec-escape-string",
       "name": "escape"
     },
     {
-      "id": "B.2.2",
-      "url": "#sec-B.2.2",
+      "id": "B.2.1.2",
+      "url": "#sec-unescape-string",
       "name": "unescape"
     },
     {
-      "id": "B.2.3",
-      "url": "#sec-B.2.3",
+      "id": "B.2.2.1",
+      "url": "#sec-object.prototype.__proto__",
+      "name": "Object.prototype.__proto__"
+    },
+    {
+      "id": "B.2.3.1",
+      "url": "#sec-string.prototype.substr",
       "name": "String.prototype.substr"
     },
     {
-      "id": "B.2.4",
-      "url": "#sec-B.2.4",
+      "id": "B.2.3.2",
+      "url": "#sec-string.prototype.anchor",
+      "name": "String.prototype.anchor"
+    },
+    {
+      "id": "B.2.3.3",
+      "url": "#sec-string.prototype.big",
+      "name": "String.prototype.big"
+    },
+    {
+      "id": "B.2.3.4",
+      "url": "#sec-string.prototype.blink",
+      "name": "String.prototype.blink"
+    },
+    {
+      "id": "B.2.3.5",
+      "url": "#sec-string.prototype.bold",
+      "name": "String.prototype.bold"
+    },
+    {
+      "id": "B.2.3.6",
+      "url": "#sec-string.prototype.fixed",
+      "name": "String.prototype.fixed"
+    },
+    {
+      "id": "B.2.3.7",
+      "url": "#sec-string.prototype.fontcolor",
+      "name": "String.prototype.fontcolor"
+    },
+    {
+      "id": "B.2.3.8",
+      "url": "#sec-string.prototype.fontsize",
+      "name": "String.prototype.fontsize"
+    },
+    {
+      "id": "B.2.3.9",
+      "url": "#sec-string.prototype.italics",
+      "name": "String.prototype.italics"
+    },
+    {
+      "id": "B.2.3.10",
+      "url": "#sec-string.prototype.link",
+      "name": "String.prototype.link"
+    },
+    {
+      "id": "B.2.3.11",
+      "url": "#sec-string.prototype.small",
+      "name": "String.prototype.small"
+    },
+    {
+      "id": "B.2.3.12",
+      "url": "#sec-string.prototype.strike",
+      "name": "String.prototype.strike"
+    },
+    {
+      "id": "B.2.3.13",
+      "url": "#sec-string.prototype.sub",
+      "name": "String.prototype.sub"
+    },
+    {
+      "id": "B.2.3.14",
+      "url": "#sec-string.prototype.sup",
+      "name": "String.prototype.sup"
+    },
+    {
+      "id": "B.2.4.1",
+      "url": "#sec-date.prototype.getyear",
       "name": "Date.prototype.getYear"
     },
     {
-      "id": "B.2.5",
-      "url": "#sec-B.2.5",
+      "id": "B.2.4.2",
+      "url": "#sec-date.prototype.setyear",
       "name": "Date.prototype.setYear"
     },
     {
-      "id": "B.2.6",
-      "url": "#sec-B.2.6",
+      "id": "B.2.4.3",
+      "url": "#sec-date.prototype.togmtstring",
       "name": "Date.prototype.toGMTString"
+    },
+    {
+      "id": "B.2.5.1",
+      "url": "#sec-regexp.prototype.compile",
+      "name": "RegExp.prototype.compile"
     }
   ]
 }
