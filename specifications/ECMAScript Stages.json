@@ -75,12 +75,12 @@
       "stage": 3
     },
     {
-      "url": "https://github.com/tc39/proposal-object-values-entries",
+      "url": "https://tc39.github.io/ecma262/#sec-object.values",
       "name": "Object.values",
       "stage": 4
     },
     {
-      "url": "https://github.com/tc39/proposal-object-values-entries",
+      "url": "https://tc39.github.io/ecma262/#sec-object.entries",
       "name": "Object.entries",
       "stage": 4
     }

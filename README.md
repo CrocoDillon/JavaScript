@@ -21,8 +21,8 @@ Proposal|Stage
 [**`Object.getOwnPropertyDescriptors`**](https://github.com/tc39/proposal-object-getownpropertydescriptors)|3
 [**`String.prototype.padStart`**](https://github.com/tc39/proposal-string-pad-start-end)|3
 [**`String.prototype.padEnd`**](https://github.com/tc39/proposal-string-pad-start-end)|3
-[**`Object.values`**](https://github.com/tc39/proposal-object-values-entries)|4
-[**`Object.entries`**](https://github.com/tc39/proposal-object-values-entries)|4
+[**`Object.values`**](https://tc39.github.io/ecma262/#sec-object.values)|4
+[**`Object.entries`**](https://tc39.github.io/ecma262/#sec-object.entries)|4
 
 ## ECMAScript Specification Overview
 
