@@ -44,7 +44,7 @@ function getSectionData(spec, name) {
 }
 
 const stages = require('../specifications/ECMAScript Stages.json')
-const tableStages = stages.map(p => `[${p.name}](${p.url})|${p.stage}`).join('\n')
+const tableStages = stages.map(p => `[**\`${p.name}\`**](${p.url})|${p.stage}`).join('\n')
 
 const readme = path.join(__dirname, '../README.md')
 const data = `\
@@ -54,8 +54,8 @@ const data = `\
 
 These are proposals that are not yet in any finished ECMAScript Specification. The stages describe how advanced the proposal is in the [TC39 release process](https://tc39.github.io/process-document/). There is stage 0 (strawman), stage 1 (proposal), stage 2 (draft), stage 3 (candidate) and finally stage 4 (finished). Stage 4 means the proposal will probably be part of the next ECMAScript Specification. At any time in this release process a proposal can be dropped.
 
-&nbsp;|**STAGE**
-------|---------
+Proposal|Stage
+--------|-----
 ${tableStages}
 
 ## ECMAScript Specification Overview
