@@ -1670,6 +1670,26 @@
       "name": "%TypedArray%.prototype[@@toStringTag]"
     },
     {
+      "id": "22.2.5.1",
+      "url": "#sec-typedarray.bytes_per_element",
+      "name": "TypedArray.BYTES_PER_ELEMENT"
+    },
+    {
+      "id": "22.2.5.2",
+      "url": "#sec-typedarray.prototype",
+      "name": "TypedArray.prototype"
+    },
+    {
+      "id": "22.2.6.1",
+      "url": "#sec-typedarray.prototype.bytes_per_element",
+      "name": "TypedArray.prototype.BYTES_PER_ELEMENT"
+    },
+    {
+      "id": "22.2.6.2",
+      "url": "#sec-typedarray.prototype.constructor",
+      "name": "TypedArray.prototype.constructor"
+    },
+    {
       "id": "23.1",
       "url": "#sec-map-objects",
       "name": "Map"
@@ -2073,6 +2093,66 @@
       "id": "24.3.3",
       "url": "#sec-json-@@tostringtag",
       "name": "JSON[@@toStringTag]"
+    },
+    {
+      "id": "25.2",
+      "url": "#sec-generatorfunction-objects",
+      "name": "GeneratorFunction"
+    },
+    {
+      "id": "25.2.2.1",
+      "url": "#sec-generatorfunction.length",
+      "name": "GeneratorFunction.length"
+    },
+    {
+      "id": "25.2.2.2",
+      "url": "#sec-generatorfunction.prototype",
+      "name": "GeneratorFunction.prototype"
+    },
+    {
+      "id": "25.2.3.1",
+      "url": "#sec-generatorfunction.prototype.constructor",
+      "name": "GeneratorFunction.prototype.constructor"
+    },
+    {
+      "id": "25.2.3.2",
+      "url": "#sec-generatorfunction.prototype.prototype",
+      "name": "GeneratorFunction.prototype.prototype"
+    },
+    {
+      "id": "25.2.3.3",
+      "url": "#sec-generatorfunction.prototype-@@tostringtag",
+      "name": "GeneratorFunction.prototype[@@toStringTag]"
+    },
+    {
+      "id": "25.3",
+      "url": "#sec-generator-objects",
+      "name": "Generator"
+    },
+    {
+      "id": "25.3.1.1",
+      "url": "#sec-generator.prototype.constructor",
+      "name": "Generator.prototype.constructor"
+    },
+    {
+      "id": "25.3.1.2",
+      "url": "#sec-generator.prototype.next",
+      "name": "Generator.prototype.next"
+    },
+    {
+      "id": "25.3.1.3",
+      "url": "#sec-generator.prototype.return",
+      "name": "Generator.prototype.return"
+    },
+    {
+      "id": "25.3.1.4",
+      "url": "#sec-generator.prototype.throw",
+      "name": "Generator.prototype.throw"
+    },
+    {
+      "id": "25.3.1.5",
+      "url": "#sec-generator.prototype-@@tostringtag",
+      "name": "Generator.prototype[@@toStringTag]"
     },
     {
       "id": "25.4",
