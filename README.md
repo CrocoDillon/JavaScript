@@ -1,5 +1,29 @@
 # JavaScript
 
+## ECMAScript Stages
+
+These are proposals that are not yet in any finished ECMAScript Specification. The stages describe how advanced the proposal is in the [TC39 release process](https://tc39.github.io/process-document/). There is stage 0 (strawman), stage 1 (proposal), stage 2 (draft), stage 3 (candidate) and finally stage 4 (finished). Stage 4 means the proposal will probably be part of the next ECMAScript Specification. At any time in this release process a proposal can be dropped.
+
+&nbsp;|**STAGE**
+------|---------
+[Math.iaddh](https://gist.github.com/BrendanEich/4294d5c212a6d2254703)|0
+[Math.isubh](https://gist.github.com/BrendanEich/4294d5c212a6d2254703)|0
+[Math.imulh](https://gist.github.com/BrendanEich/4294d5c212a6d2254703)|0
+[Math.umulh](https://gist.github.com/BrendanEich/4294d5c212a6d2254703)|0
+[Reflect.isCallable](https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md)|0
+[Reflect.isConstructor](https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md)|0
+[String.prototype.at](https://github.com/mathiasbynens/String.prototype.at)|0
+[ArrayBuffer.transfer](https://gist.github.com/lukewagner/2735af7eea411e18cf20)|1
+[Observable](https://github.com/zenparsing/es-observable)|1
+[String.prototype.matchAll](https://github.com/tc39/String.prototype.matchAll)|1
+[String.prototype.trimLeft](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|1
+[String.prototype.trimRight](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|1
+[Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)|3
+[String.prototype.padStart](https://github.com/tc39/proposal-string-pad-start-end)|3
+[String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)|3
+[Object.values](https://github.com/tc39/proposal-object-values-entries)|4
+[Object.entries](https://github.com/tc39/proposal-object-values-entries)|4
+
 ## ECMAScript Specification Overview
 
 &nbsp;|[ES1](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf)|[ES2](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%202nd%20edition,%20August%201998.pdf)|[ES3](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf)|[ES5](http://www.ecma-international.org/ecma-262/5.1/)|[ES2015](http://www.ecma-international.org/ecma-262/6.0/)|[ES2016](https://tc39.github.io/ecma262/2016/)

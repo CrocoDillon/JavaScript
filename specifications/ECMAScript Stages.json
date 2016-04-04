@@ -1,0 +1,87 @@
+[
+    {
+      "url": "https://gist.github.com/BrendanEich/4294d5c212a6d2254703",
+      "name": "Math.iaddh",
+      "stage": 0
+    },
+    {
+      "url": "https://gist.github.com/BrendanEich/4294d5c212a6d2254703",
+      "name": "Math.isubh",
+      "stage": 0
+    },
+    {
+      "url": "https://gist.github.com/BrendanEich/4294d5c212a6d2254703",
+      "name": "Math.imulh",
+      "stage": 0
+    },
+    {
+      "url": "https://gist.github.com/BrendanEich/4294d5c212a6d2254703",
+      "name": "Math.umulh",
+      "stage": 0
+    },
+    {
+      "url": "https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md",
+      "name": "Reflect.isCallable",
+      "stage": 0
+    },
+    {
+      "url": "https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md",
+      "name": "Reflect.isConstructor",
+      "stage": 0
+    },
+    {
+      "url": "https://github.com/mathiasbynens/String.prototype.at",
+      "name": "String.prototype.at",
+      "stage": 0
+    },
+    {
+      "url": "https://gist.github.com/lukewagner/2735af7eea411e18cf20",
+      "name": "ArrayBuffer.transfer",
+      "stage": 1
+    },
+    {
+      "url": "https://github.com/zenparsing/es-observable",
+      "name": "Observable",
+      "stage": 1
+    },
+    {
+      "url": "https://github.com/tc39/String.prototype.matchAll",
+      "name": "String.prototype.matchAll",
+      "stage": 1
+    },
+    {
+      "url": "https://github.com/sebmarkbage/ecmascript-string-left-right-trim",
+      "name": "String.prototype.trimLeft",
+      "stage": 1
+    },
+    {
+      "url": "https://github.com/sebmarkbage/ecmascript-string-left-right-trim",
+      "name": "String.prototype.trimRight",
+      "stage": 1
+    },
+    {
+      "url": "https://github.com/tc39/proposal-object-getownpropertydescriptors",
+      "name": "Object.getOwnPropertyDescriptors",
+      "stage": 3
+    },
+    {
+      "url": "https://github.com/tc39/proposal-string-pad-start-end",
+      "name": "String.prototype.padStart",
+      "stage": 3
+    },
+    {
+      "url": "https://github.com/tc39/proposal-string-pad-start-end",
+      "name": "String.prototype.padEnd",
+      "stage": 3
+    },
+    {
+      "url": "https://github.com/tc39/proposal-object-values-entries",
+      "name": "Object.values",
+      "stage": 4
+    },
+    {
+      "url": "https://github.com/tc39/proposal-object-values-entries",
+      "name": "Object.entries",
+      "stage": 4
+    }
+]
