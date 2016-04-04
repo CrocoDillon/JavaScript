@@ -14,7 +14,8 @@ const specs = [
   require('../specifications/ECMAScript 2.json'),
   require('../specifications/ECMAScript 3.json'),
   require('../specifications/ECMAScript 5.1.json'),
-  require('../specifications/ECMAScript 2015.json')
+  require('../specifications/ECMAScript 2015.json'),
+  require('../specifications/ECMAScript 2016.json')
 ]
 
 const latest = specs.length - 1
