@@ -23,7 +23,7 @@ const tableHeader = `&nbsp;|${specs.map(spec =>
   ).join('|')}\n---${new Array(specs.length + 1).join('|---')}`
 const tableData =
     specs[latest].sections.map(section => {
-      const root = section.name.split('.')[0]
+      const root = section.name.split(/[.[]/)[0]
       const name = nonGlobals.indexOf(root) === -1 ?
         `**\`${section.name}\`**` :
         `*\`${section.name}\`*`

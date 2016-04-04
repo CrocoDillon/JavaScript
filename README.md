@@ -305,7 +305,7 @@
 |*`%TypedArray%.from`*|||||[`22.2.2.1`](http://www.ecma-international.org/ecma-262/6.0/#sec-%typedarray%.from)|
 |*`%TypedArray%.of`*|||||[`22.2.2.2`](http://www.ecma-international.org/ecma-262/6.0/#sec-%typedarray%.of)|
 |*`%TypedArray%.prototype`*|||||[`22.2.2.3`](http://www.ecma-international.org/ecma-262/6.0/#sec-%typedarray%.prototype)|
-|**`%TypedArray%[@@species]`**|||||[`22.2.2.4`](http://www.ecma-international.org/ecma-262/6.0/#sec-get-%typedarray%-@@species)|
+|*`%TypedArray%[@@species]`*|||||[`22.2.2.4`](http://www.ecma-international.org/ecma-262/6.0/#sec-get-%typedarray%-@@species)|
 |*`%TypedArray%.prototype.buffer`*|||||[`22.2.3.1`](http://www.ecma-international.org/ecma-262/6.0/#sec-get-%typedarray%.prototype.buffer)|
 |*`%TypedArray%.prototype.byteLength`*|||||[`22.2.3.2`](http://www.ecma-international.org/ecma-262/6.0/#sec-get-%typedarray%.prototype.bytelength)|
 |*`%TypedArray%.prototype.byteOffset`*|||||[`22.2.3.3`](http://www.ecma-international.org/ecma-262/6.0/#sec-get-%typedarray%.prototype.byteoffset)|
