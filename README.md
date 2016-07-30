@@ -16,13 +16,14 @@ Proposal|Stage
 [**`ArrayBuffer.transfer`**](https://gist.github.com/lukewagner/2735af7eea411e18cf20)|1
 [**`Observable`**](https://github.com/zenparsing/es-observable)|1
 [**`String.prototype.matchAll`**](https://github.com/tc39/String.prototype.matchAll)|1
-[**`String.prototype.trimLeft`**](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|1
-[**`String.prototype.trimRight`**](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|1
-[**`Object.getOwnPropertyDescriptors`**](https://github.com/tc39/proposal-object-getownpropertydescriptors)|3
-[**`String.prototype.padStart`**](https://github.com/tc39/proposal-string-pad-start-end)|3
-[**`String.prototype.padEnd`**](https://github.com/tc39/proposal-string-pad-start-end)|3
+[**`Promise.prototype.finally`**](https://github.com/ljharb/proposal-promise-finally)|2
+[**`String.prototype.trimStart`**](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|2
+[**`String.prototype.trimEnd`**](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)|2
+[**`Object.getOwnPropertyDescriptors`**](https://github.com/tc39/proposal-object-getownpropertydescriptors)|4
 [**`Object.values`**](https://tc39.github.io/ecma262/#sec-object.values)|4
 [**`Object.entries`**](https://tc39.github.io/ecma262/#sec-object.entries)|4
+[**`String.prototype.padStart`**](https://github.com/tc39/proposal-string-pad-start-end)|4
+[**`String.prototype.padEnd`**](https://github.com/tc39/proposal-string-pad-start-end)|4
 
 ## ECMAScript Specification Overview
 
